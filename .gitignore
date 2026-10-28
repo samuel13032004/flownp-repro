@@ -1,0 +1,6 @@
+.venv/
+.venv-official/
+__pycache__/
+*.egg-info/
+third_party/
+outputs/
