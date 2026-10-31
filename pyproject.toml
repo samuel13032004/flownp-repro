@@ -6,6 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "flownp"
 version = "0.1.0"
 requires-python = ">=3.10"
+dependencies = ["torch", "pyyaml"]
+
+[project.optional-dependencies]
+official = ["attrdictionary", "addict", "prettytable", "torchdiffeq", "flow-matching==1.0.10"]
+test = ["pytest"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
