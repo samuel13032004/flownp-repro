@@ -60,9 +60,9 @@ def _rng_state():
 
 
 def _set_rng_state(s):
-    torch.set_rng_state(s["torch"])
+    torch.set_rng_state(s["torch"].cpu())
     if "cuda" in s and torch.cuda.is_available():
-        torch.cuda.set_rng_state_all(s["cuda"])
+        torch.cuda.set_rng_state_all([t.cpu() for t in s["cuda"]])
 
 
 def train(run_dir: str, model: str = "flownp", data: str = "gp:rbf", seed: int = 0, num_steps: int = 100_000,
