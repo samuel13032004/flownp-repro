@@ -1,0 +1,11 @@
+pesos iniciales de /content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s1/ckpt.tar
+terminado: /content/drive/MyDrive/flownp_runs/ours/cosine/cnp/s1/ckpt.pt
+likelihood {'tar_ll': 0.4076454284414649, 'num_batches': 50, 'seconds': 0.525083065032959}
+calibration {'coverage_50': 0.4931233823299408, 'coverage_90': 0.86083984375, 'crps': 0.17381422221660614, 'pit_flatness': 0.04296875, 'seconds': 0.5249974727630615}
+cosine M = 1 {'fidelity_is_cosine': 0.0, 'freq_tv_distance': 1.0, 'plausible_modes_found': 0.0, 'num_plausible_modes': 4.0, 'seconds_per_task': 0.0, 'precision': 0.019, 'recall': 0.744, 'density': 0.004, 'coverage': 0.006, 'mmd': 0.048}
+cosine M = 2 {'fidelity_is_cosine': 0.0, 'freq_tv_distance': 1.0, 'plausible_modes_found': 0.0, 'num_plausible_modes': 3.031, 'seconds_per_task': 0.0, 'precision': 0.086, 'recall': 0.682, 'density': 0.055, 'coverage': 0.012, 'mmd': 0.171}
+cosine M = 3 {'fidelity_is_cosine': 0.0, 'freq_tv_distance': 1.0, 'plausible_modes_found': 0.0, 'num_plausible_modes': 1.469, 'seconds_per_task': 0.0, 'precision': 0.075, 'recall': 0.77, 'density': 0.038, 'coverage': 0.005, 'mmd': 0.442}
+cosine M = 5 {'fidelity_is_cosine': 0.031, 'freq_tv_distance': 0.969, 'plausible_modes_found': 0.031, 'num_plausible_modes': 1.031, 'seconds_per_task': 0.0, 'precision': 0.012, 'recall': 0.683, 'density': 0.005, 'coverage': 0.0, 'mmd': 0.584}
+cosine M = 10 {'fidelity_is_cosine': 0.322, 'freq_tv_distance': 0.678, 'plausible_modes_found': 0.422, 'num_plausible_modes': 1.0, 'seconds_per_task': 0.0, 'precision': 0.007, 'recall': 0.694, 'density': 0.002, 'coverage': 0.005, 'mmd': 0.413}
+cosine M = 20 {'fidelity_is_cosine': 0.501, 'freq_tv_distance': 0.499, 'plausible_modes_found': 0.609, 'num_plausible_modes': 1.0, 'seconds_per_task': 0.0, 'precision': 0.004, 'recall': 0.82, 'density': 0.001, 'coverage': 0.004, 'mmd': 0.314}
+guardado en /content/drive/MyDrive/flownp_runs/ours/cosine/cnp/s1/metrics.json

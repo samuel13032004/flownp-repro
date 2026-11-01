@@ -1,0 +1,4 @@
+kernel,model,seed,tar_ll
+periodic,ndp,0,-0.5385
+periodic,ndp,1,-0.5417
+periodic,ndp,2,-0.5458

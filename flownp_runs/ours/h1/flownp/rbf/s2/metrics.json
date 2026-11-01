@@ -1,0 +1,29 @@
+{
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s2/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+    "tar_ll": 1.7112947218865155,
+    "num_batches": 100,
+    "seconds": 325.46679425239563
+  },
+  "calibration": {
+    "coverage_50": 0.44794324040412903,
+    "coverage_90": 0.8295599222183228,
+    "crps": 0.06419940292835236,
+    "pit_hist": [
+      0.12898597121238708,
+      0.09072066098451614,
+      0.1037946417927742,
+      0.08625637739896774,
+      0.08179209381341934,
+      0.09925063699483871,
+      0.0876116082072258,
+      0.1026785746216774,
+      0.0837053582072258,
+      0.13520407676696777
+    ],
+    "pit_flatness": 0.07066326588392258,
+    "seconds": 403.9508640766144
+  }
+}

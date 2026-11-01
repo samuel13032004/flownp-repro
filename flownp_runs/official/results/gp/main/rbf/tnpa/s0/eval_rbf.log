@@ -1,0 +1,2 @@
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp rbf-seed0.tar with obs_noise 0.0
+main:tnpa:s0 rbf tar_ll 1.6898 loss -1.6898 n_ctx 25.7000 n_tar 13.3900 (1.003 secs)

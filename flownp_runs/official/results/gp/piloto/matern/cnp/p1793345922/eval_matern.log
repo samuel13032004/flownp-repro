@@ -1,0 +1,2 @@
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp piloto.tar with obs_noise 0.0
+piloto:cnp:p1793345922 matern ctx_ll -0.4048 tar_ll -0.4821 n_ctx 35.0000 n_tar 6.0000 (0.005 secs)

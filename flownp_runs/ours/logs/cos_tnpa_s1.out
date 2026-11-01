@@ -1,0 +1,60 @@
+pesos iniciales de /content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s1/ckpt.tar
+terminado: /content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s1/ckpt.pt
+likelihood {'tar_ll': 1.1808335840702058, 'num_batches': 50, 'seconds': 1.3287558555603027}
+calibration {'coverage_50': 0.53564453125, 'coverage_90': 0.9149983525276184, 'crps': 0.13059498369693756, 'pit_flatness': 0.05767415463924408, 'seconds': 141.4672110080719}
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/evaluate.py", line 74, in <module>
+    res["cosine"] = evaluate_cosine(pred, CosineSampler(), device=dev, seed=a.seed, **kw)
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/evaluation.py", line 54, in evaluate_cosine
+    fake = pred.samples(b.xc.to(device), b.yc.to(device), b.xt.to(device), num_samples).float().cpu()
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/flownp-repro/src/flownp/models/predictors.py", line 38, in samples
+    s = m.sample(rep(xc), rep(yc), xt_p, num_samples=1)[0]
+        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/third_party/flowNP/models/tnpa.py", line 121, in sample
+    return self.predict(xc, yc, xt, num_samples, return_samples=True)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/third_party/flowNP/models/tnpa.py", line 100, in predict
+    z_target_stacked = self.encode(batch_stacked, autoreg=True)
+  File "/content/third_party/flowNP/models/tnp.py", line 63, in encode
+    out = self.encoder(embeddings, mask=mask)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py", line 540, in forward
+    output = mod(
+        output,
+    ...<2 lines>...
+        src_key_padding_mask=src_key_padding_mask_for_layers,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py", line 921, in forward
+    return torch._transformer_encoder_layer_fwd(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        src,
+        ^^^^
+    ...<18 lines>...
+        mask_type,
+        ^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.57 GiB. GPU 0 has a total capacity of 14.56 GiB of which 2.42 GiB is free. Process 211133 has 3.62 GiB memory in use. Including non-PyTorch memory, this process has 8.51 GiB memory in use. Of the allocated memory 4.44 GiB is allocated by PyTorch, and 3.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+terminado: /content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s1/ckpt.pt
+likelihood {'tar_ll': 1.1808335840702058, 'num_batches': 50, 'seconds': 2.0226082801818848}
+calibration {'coverage_50': 0.53564453125, 'coverage_90': 0.9149983525276184, 'crps': 0.13059498369693756, 'pit_flatness': 0.05767415463924408, 'seconds': 145.89846277236938}
+cosine M = 1 {'fidelity_is_cosine': 0.038, 'freq_tv_distance': 0.962, 'plausible_modes_found': 0.301, 'num_plausible_modes': 4.0, 'seconds_per_task': 3.356, 'precision': 0.554, 'recall': 0.962, 'density': 0.437, 'coverage': 0.554, 'mmd': 0.014}
+cosine M = 2 {'fidelity_is_cosine': 0.046, 'freq_tv_distance': 0.954, 'plausible_modes_found': 0.336, 'num_plausible_modes': 3.031, 'seconds_per_task': 1.866, 'precision': 0.169, 'recall': 0.969, 'density': 0.111, 'coverage': 0.074, 'mmd': 0.121}
+cosine M = 3 {'fidelity_is_cosine': 0.124, 'freq_tv_distance': 0.884, 'plausible_modes_found': 0.536, 'num_plausible_modes': 1.469, 'seconds_per_task': 1.887, 'precision': 0.096, 'recall': 0.988, 'density': 0.043, 'coverage': 0.04, 'mmd': 0.373}
+cosine M = 5 {'fidelity_is_cosine': 0.166, 'freq_tv_distance': 0.838, 'plausible_modes_found': 0.688, 'num_plausible_modes': 1.031, 'seconds_per_task': 1.917, 'precision': 0.027, 'recall': 0.992, 'density': 0.01, 'coverage': 0.022, 'mmd': 0.472}
+cosine M = 10 {'fidelity_is_cosine': 0.707, 'freq_tv_distance': 0.294, 'plausible_modes_found': 0.984, 'num_plausible_modes': 1.0, 'seconds_per_task': 1.966, 'precision': 0.074, 'recall': 0.993, 'density': 0.03, 'coverage': 0.102, 'mmd': 0.196}
+cosine M = 20 {'fidelity_is_cosine': 0.91, 'freq_tv_distance': 0.09, 'plausible_modes_found': 0.984, 'num_plausible_modes': 1.0, 'seconds_per_task': 2.053, 'precision': 0.135, 'recall': 0.982, 'density': 0.061, 'coverage': 0.194, 'mmd': 0.102}
+guardado en /content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s1/metrics.json

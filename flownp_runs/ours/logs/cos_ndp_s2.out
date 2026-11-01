@@ -1,0 +1,13 @@
+pesos iniciales de /content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/ndp/s2/ckpt.tar
+terminado: /content/drive/MyDrive/flownp_runs/ours/cosine/ndp/s2/ckpt.pt
+/usr/local/lib/python3.13/dist-packages/torchdiffeq/_impl/misc.py:306: UserWarning: t is not on the same device as y0. Coercing to y0.device.
+  warnings.warn("t is not on the same device as y0. Coercing to y0.device.")
+likelihood {'tar_ll': 1.3557040059566499, 'num_batches': 50, 'seconds': 491.4167103767395}
+calibration {'coverage_50': 0.3251139223575592, 'coverage_90': 0.6336669921875, 'crps': 0.5321938395500183, 'pit_flatness': 0.25735676288604736, 'seconds': 653.6625626087189}
+cosine M = 1 {'fidelity_is_cosine': 0.63, 'freq_tv_distance': 0.381, 'plausible_modes_found': 1.0, 'num_plausible_modes': 4.0, 'seconds_per_task': 1.937, 'precision': 0.698, 'recall': 0.536, 'density': 1.098, 'coverage': 0.547, 'mmd': 0.256}
+cosine M = 2 {'fidelity_is_cosine': 0.582, 'freq_tv_distance': 0.532, 'plausible_modes_found': 0.996, 'num_plausible_modes': 3.031, 'seconds_per_task': 1.95, 'precision': 0.32, 'recall': 0.55, 'density': 0.279, 'coverage': 0.115, 'mmd': 0.48}
+cosine M = 3 {'fidelity_is_cosine': 0.515, 'freq_tv_distance': 0.784, 'plausible_modes_found': 0.984, 'num_plausible_modes': 1.469, 'seconds_per_task': 1.97, 'precision': 0.131, 'recall': 0.635, 'density': 0.093, 'coverage': 0.054, 'mmd': 0.968}
+cosine M = 5 {'fidelity_is_cosine': 0.529, 'freq_tv_distance': 0.832, 'plausible_modes_found': 1.0, 'num_plausible_modes': 1.031, 'seconds_per_task': 2.007, 'precision': 0.017, 'recall': 0.54, 'density': 0.009, 'coverage': 0.012, 'mmd': 1.308}
+cosine M = 10 {'fidelity_is_cosine': 0.47, 'freq_tv_distance': 0.85, 'plausible_modes_found': 1.0, 'num_plausible_modes': 1.0, 'seconds_per_task': 2.071, 'precision': 0.008, 'recall': 0.535, 'density': 0.005, 'coverage': 0.015, 'mmd': 1.284}
+cosine M = 20 {'fidelity_is_cosine': 0.414, 'freq_tv_distance': 0.863, 'plausible_modes_found': 0.984, 'num_plausible_modes': 1.0, 'seconds_per_task': 2.421, 'precision': 0.009, 'recall': 0.435, 'density': 0.017, 'coverage': 0.046, 'mmd': 1.352}
+guardado en /content/drive/MyDrive/flownp_runs/ours/cosine/ndp/s2/metrics.json

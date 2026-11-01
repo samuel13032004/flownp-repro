@@ -1,0 +1,2 @@
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp periodic-seed0.tar with obs_noise 0.0
+main:ndp:s0 periodic all_ll -0.6028 ctx_ll -0.6830 tar_ll -0.5385 n_ctx 23.2700 n_tar 15.2400 (967.357 secs)

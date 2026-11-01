@@ -1,0 +1,139 @@
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 130, in train
+    torch.save(dict(model=net.state_dict(), optimizer=opt.state_dict(), scheduler=sched.state_dict(),
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    rng=_rng_state(), step=step, config=cfg), tmp)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 865, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 829, in __init__
+    torch._C.PyTorchFileWriter(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.name, get_crc32_options(), _get_storage_alignment()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: Parent directory /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s1 does not exist.
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 94, in train
+    _set_rng_state(ck["rng"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/content/flownp-repro/src/flownp/training.py", line 63, in _set_rng_state
+    torch.set_rng_state(s["torch"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/random.py", line 19, in set_rng_state
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: RNG state must be a torch.ByteTensor
+reanudando /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s1 desde el paso 2000
+terminado: /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s1/ckpt.pt
+likelihood {'tar_ll': 1.7130637085437774, 'num_batches': 100, 'seconds': 305.4073145389557}
+calibration {'coverage_50': 0.45886480808258057, 'coverage_90': 0.8400031924247742, 'crps': 0.06381136924028397, 'pit_flatness': 0.06221301481127739, 'seconds': 478.55772733688354}
+guardado en /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s1/metrics.json

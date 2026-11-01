@@ -1,0 +1,4 @@
+terminado: /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s2/ckpt.pt
+likelihood {'tar_ll': 1.7112947218865155, 'num_batches': 100, 'seconds': 325.46679425239563}
+calibration {'coverage_50': 0.44794324040412903, 'coverage_90': 0.8295599222183228, 'crps': 0.06419940292835236, 'pit_flatness': 0.07066326588392258, 'seconds': 403.9508640766144}
+guardado en /content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s2/metrics.json

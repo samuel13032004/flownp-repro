@@ -1,0 +1,24 @@
+{
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s4/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+    "coverage_50": 0.5768494606018066,
+    "coverage_90": 0.9140625,
+    "crps": 0.08987713605165482,
+    "pit_hist": [
+      0.07748724520206451,
+      0.07740752398967743,
+      0.1099330335855484,
+      0.11200574040412903,
+      0.12021683901548386,
+      0.13241390883922577,
+      0.10738201439380646,
+      0.10873724520206451,
+      0.07955995202064514,
+      0.07485650479793549
+    ],
+    "pit_flatness": 0.09068876504898071,
+    "seconds": 0.671943187713623
+  }
+}

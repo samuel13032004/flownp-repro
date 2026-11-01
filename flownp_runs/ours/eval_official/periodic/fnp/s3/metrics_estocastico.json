@@ -1,0 +1,24 @@
+{
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s3/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+    "coverage_50": 0.4126908481121063,
+    "coverage_90": 0.8025405406951904,
+    "crps": 0.2887933552265167,
+    "pit_hist": [
+      0.15296994149684906,
+      0.09327290207147598,
+      0.09601622074842453,
+      0.07717080414295197,
+      0.08218034356832504,
+      0.08522184938192368,
+      0.07895992696285248,
+      0.0966125950217247,
+      0.09279580414295197,
+      0.1447996199131012
+    ],
+    "pit_flatness": 0.09776956588029861,
+    "seconds": 951.1071515083313
+  }
+}

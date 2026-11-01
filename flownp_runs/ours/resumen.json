@@ -1,0 +1,4734 @@
+[
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/anp/s0/ckpt.pt",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.3854164183884859,
+   "num_batches": 50,
+   "seconds": 4.831614017486572
+  },
+  "calibration": {
+   "coverage_50": 0.4529622495174408,
+   "coverage_90": 0.8481852412223816,
+   "crps": 0.20297975838184357,
+   "pit_hist": [
+    0.1210530623793602,
+    0.0930582657456398,
+    0.105712890625,
+    0.0869140625,
+    0.0848795548081398,
+    0.0995279923081398,
+    0.0846761092543602,
+    0.1046956405043602,
+    0.0930989608168602,
+    0.1263834685087204
+   ],
+   "pit_flatness": 0.05784505978226662,
+   "seconds": 0.6026620864868164
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.0006045959889888763,
+    "precision": 0.332763671875,
+    "recall": 0.697021484375,
+    "density": 0.19189453190483619,
+    "coverage": 0.171630859375,
+    "mmd": 0.06664942484349012
+   },
+   "2": {
+    "fidelity_is_cosine": 0.00048828125,
+    "freq_tv_distance": 0.99951171875,
+    "plausible_modes_found": 0.0078125,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.0008644461631774902,
+    "precision": 0.1474609375,
+    "recall": 0.69970703125,
+    "density": 0.1037109364697244,
+    "coverage": 0.020751953125,
+    "mmd": 0.21264529880136251
+   },
+   "3": {
+    "fidelity_is_cosine": 0.000732421875,
+    "freq_tv_distance": 0.999267578125,
+    "plausible_modes_found": 0.02864583395421505,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.0008690208196640015,
+    "precision": 0.06787109375,
+    "recall": 0.789306640625,
+    "density": 0.03730468775029294,
+    "coverage": 0.005859375,
+    "mmd": 0.5268227029591799
+   },
+   "5": {
+    "fidelity_is_cosine": 0.002685546875,
+    "freq_tv_distance": 0.997314453125,
+    "plausible_modes_found": 0.0390625,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.0008637532591819763,
+    "precision": 0.010986328125,
+    "recall": 0.838134765625,
+    "density": 0.00439453125,
+    "coverage": 0.00048828125,
+    "mmd": 0.7281312709674239
+   },
+   "10": {
+    "fidelity_is_cosine": 0.078369140625,
+    "freq_tv_distance": 0.921630859375,
+    "plausible_modes_found": 0.328125,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0010304488241672516,
+    "precision": 0.0,
+    "recall": 0.97705078125,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.5250011924654245
+   },
+   "20": {
+    "fidelity_is_cosine": 0.37353515625,
+    "freq_tv_distance": 0.62646484375,
+    "plausible_modes_found": 0.734375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0009039081633090973,
+    "precision": 0.00146484375,
+    "recall": 0.92431640625,
+    "density": 0.0003906250021827873,
+    "coverage": 0.001953125,
+    "mmd": 0.3460357217118144
+   }
+  },
+  "_file": "cosine/anp/s0/metrics.json",
+  "_group": "cosine/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/anp/s1/ckpt.pt",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.39306758061051367,
+   "num_batches": 50,
+   "seconds": 4.791275978088379
+  },
+  "calibration": {
+   "coverage_50": 0.4492594301700592,
+   "coverage_90": 0.845703125,
+   "crps": 0.20139122009277344,
+   "pit_hist": [
+    0.1233317032456398,
+    0.0941975936293602,
+    0.1063232421875,
+    0.0858561173081398,
+    0.0850423201918602,
+    0.0985514298081398,
+    0.0841064453125,
+    0.1023356094956398,
+    0.0940348282456398,
+    0.126220703125
+   ],
+   "pit_flatness": 0.05821126326918602,
+   "seconds": 0.6187164783477783
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.000244140625,
+    "freq_tv_distance": 0.999755859375,
+    "plausible_modes_found": 0.00390625,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.0005744956433773041,
+    "precision": 0.30712890625,
+    "recall": 0.70556640625,
+    "density": 0.17895507880530204,
+    "coverage": 0.157470703125,
+    "mmd": 0.05596468783915043
+   },
+   "2": {
+    "fidelity_is_cosine": 0.00146484375,
+    "freq_tv_distance": 0.99853515625,
+    "plausible_modes_found": 0.01171875,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.0008390732109546661,
+    "precision": 0.1640625,
+    "recall": 0.717529296875,
+    "density": 0.1130371099061449,
+    "coverage": 0.025634765625,
+    "mmd": 0.21385557670146227
+   },
+   "3": {
+    "fidelity_is_cosine": 0.00146484375,
+    "freq_tv_distance": 0.99853515625,
+    "plausible_modes_found": 0.03125,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.0010197348892688751,
+    "precision": 0.067138671875,
+    "recall": 0.8330078125,
+    "density": 0.035644531482830644,
+    "coverage": 0.005859375,
+    "mmd": 0.5414359290152788
+   },
+   "5": {
+    "fidelity_is_cosine": 0.013671875,
+    "freq_tv_distance": 0.986328125,
+    "plausible_modes_found": 0.03125,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.0009064003825187683,
+    "precision": 0.0087890625,
+    "recall": 0.78173828125,
+    "density": 0.0035156249068677425,
+    "coverage": 0.00048828125,
+    "mmd": 0.7181132091209292
+   },
+   "10": {
+    "fidelity_is_cosine": 0.14208984375,
+    "freq_tv_distance": 0.85791015625,
+    "plausible_modes_found": 0.375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0009194575250148773,
+    "precision": 0.0,
+    "recall": 0.958740234375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.503960776142776
+   },
+   "20": {
+    "fidelity_is_cosine": 0.420166015625,
+    "freq_tv_distance": 0.579833984375,
+    "plausible_modes_found": 0.765625,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0008692219853401184,
+    "precision": 0.000244140625,
+    "recall": 0.902099609375,
+    "density": 4.882812572759576e-05,
+    "coverage": 0.000244140625,
+    "mmd": 0.33343652356415987
+   }
+  },
+  "_file": "cosine/anp/s1/metrics.json",
+  "_group": "cosine/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/anp/s2/ckpt.pt",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.39693491950631143,
+   "num_batches": 50,
+   "seconds": 4.760209560394287
+  },
+  "calibration": {
+   "coverage_50": 0.4497884213924408,
+   "coverage_90": 0.8444417119026184,
+   "crps": 0.2015150636434555,
+   "pit_hist": [
+    0.1238606795668602,
+    0.0936686173081398,
+    0.1053873673081398,
+    0.08837890625,
+    0.0852864608168602,
+    0.0982259139418602,
+    0.0821533203125,
+    0.1031901016831398,
+    0.0948893204331398,
+    0.1249593123793602
+   ],
+   "pit_flatness": 0.05739746242761612,
+   "seconds": 0.9123561382293701
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.0011183395981788635,
+    "precision": 0.331298828125,
+    "recall": 0.677001953125,
+    "density": 0.19428711211367045,
+    "coverage": 0.1669921875,
+    "mmd": 0.06634794361889362
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.0009674131870269775,
+    "precision": 0.1552734375,
+    "recall": 0.69677734375,
+    "density": 0.10952148507203674,
+    "coverage": 0.025390625,
+    "mmd": 0.22313288133591413
+   },
+   "3": {
+    "fidelity_is_cosine": 0.000244140625,
+    "freq_tv_distance": 0.999755859375,
+    "plausible_modes_found": 0.0052083334885537624,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.0010922327637672424,
+    "precision": 0.075927734375,
+    "recall": 0.838134765625,
+    "density": 0.038818359375,
+    "coverage": 0.00537109375,
+    "mmd": 0.5407037353143096
+   },
+   "5": {
+    "fidelity_is_cosine": 0.01025390625,
+    "freq_tv_distance": 0.98974609375,
+    "plausible_modes_found": 0.0625,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.0009307861328125,
+    "precision": 0.008056640625,
+    "recall": 0.747802734375,
+    "density": 0.003173828125,
+    "coverage": 0.00048828125,
+    "mmd": 0.7038826989009976
+   },
+   "10": {
+    "fidelity_is_cosine": 0.123779296875,
+    "freq_tv_distance": 0.876220703125,
+    "plausible_modes_found": 0.359375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0008760392665863037,
+    "precision": 0.0,
+    "recall": 0.94921875,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.4954184293746948
+   },
+   "20": {
+    "fidelity_is_cosine": 0.394775390625,
+    "freq_tv_distance": 0.605224609375,
+    "plausible_modes_found": 0.78125,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0008843205869197845,
+    "precision": 0.00048828125,
+    "recall": 0.908447265625,
+    "density": 9.765625145519152e-05,
+    "coverage": 0.00048828125,
+    "mmd": 0.32905129436403513
+   }
+  },
+  "_file": "cosine/anp/s2/metrics.json",
+  "_group": "cosine/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/cnp/s0/ckpt.pt",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.3590276163816452,
+   "num_batches": 50,
+   "seconds": 0.5133695602416992
+  },
+  "calibration": {
+   "coverage_50": 0.4925943911075592,
+   "coverage_90": 0.8612874150276184,
+   "crps": 0.18073292076587677,
+   "pit_hist": [
+    0.1084391251206398,
+    0.0906168594956398,
+    0.1076253280043602,
+    0.0916748046875,
+    0.0938720703125,
+    0.1128743514418602,
+    0.0924479141831398,
+    0.1052652969956398,
+    0.0845133438706398,
+    0.1126708984375
+   ],
+   "pit_flatness": 0.0468750037252903,
+   "seconds": 0.48810815811157227
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 6.967782974243164e-05,
+    "precision": 0.02587890625,
+    "recall": 0.733642578125,
+    "density": 0.006689453213766683,
+    "coverage": 0.0078125,
+    "mmd": 0.04791869409382343
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.00010965391993522644,
+    "precision": 0.08544921875,
+    "recall": 0.72265625,
+    "density": 0.06596679659560323,
+    "coverage": 0.013916015625,
+    "mmd": 0.16918270103633404
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.00012303516268730164,
+    "precision": 0.041259765625,
+    "recall": 0.77197265625,
+    "density": 0.013574218646681402,
+    "coverage": 0.00390625,
+    "mmd": 0.45146538224071264
+   },
+   "5": {
+    "fidelity_is_cosine": 0.006103515625,
+    "freq_tv_distance": 0.993896484375,
+    "plausible_modes_found": 0.015625,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.00016478821635246277,
+    "precision": 0.015625,
+    "recall": 0.69677734375,
+    "density": 0.0062500000931322575,
+    "coverage": 0.00048828125,
+    "mmd": 0.5931427925825119
+   },
+   "10": {
+    "fidelity_is_cosine": 0.228271484375,
+    "freq_tv_distance": 0.7719720005989075,
+    "plausible_modes_found": 0.375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.00013225898146629333,
+    "precision": 0.0,
+    "recall": 0.648193359375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.46245221234858036
+   },
+   "20": {
+    "fidelity_is_cosine": 0.499267578125,
+    "freq_tv_distance": 0.500732421875,
+    "plausible_modes_found": 0.578125,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0001196451485157013,
+    "precision": 0.00439453125,
+    "recall": 0.748046875,
+    "density": 0.0011230468990106601,
+    "coverage": 0.00439453125,
+    "mmd": 0.33061462733894587
+   }
+  },
+  "_file": "cosine/cnp/s0/metrics.json",
+  "_group": "cosine/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/cnp/s1/ckpt.pt",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.4076454284414649,
+   "num_batches": 50,
+   "seconds": 0.525083065032959
+  },
+  "calibration": {
+   "coverage_50": 0.4931233823299408,
+   "coverage_90": 0.86083984375,
+   "crps": 0.17381422221660614,
+   "pit_hist": [
+    0.1090901717543602,
+    0.0865885391831398,
+    0.1067301407456398,
+    0.0960286483168602,
+    0.0958251953125,
+    0.1090901717543602,
+    0.0887044295668602,
+    0.1053873673081398,
+    0.0898844376206398,
+    0.1126708984375
+   ],
+   "pit_flatness": 0.04296875,
+   "seconds": 0.5249974727630615
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 7.480382919311523e-05,
+    "precision": 0.019287109375,
+    "recall": 0.743896484375,
+    "density": 0.004394531348225428,
+    "coverage": 0.006103515625,
+    "mmd": 0.047643257305026054
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.00010811910033226013,
+    "precision": 0.086181640625,
+    "recall": 0.682373046875,
+    "density": 0.05478515617505764,
+    "coverage": 0.012451171875,
+    "mmd": 0.1713045248761773
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.00010678544640541077,
+    "precision": 0.075439453125,
+    "recall": 0.76953125,
+    "density": 0.037939453730359674,
+    "coverage": 0.004638671875,
+    "mmd": 0.4423465197905898
+   },
+   "5": {
+    "fidelity_is_cosine": 0.03076171875,
+    "freq_tv_distance": 0.96923828125,
+    "plausible_modes_found": 0.03125,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 9.382516145706177e-05,
+    "precision": 0.011962890625,
+    "recall": 0.682861328125,
+    "density": 0.0047363280318677425,
+    "coverage": 0.00048828125,
+    "mmd": 0.5838581053540111
+   },
+   "10": {
+    "fidelity_is_cosine": 0.321533203125,
+    "freq_tv_distance": 0.678466796875,
+    "plausible_modes_found": 0.421875,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.0001284293830394745,
+    "precision": 0.006591796875,
+    "recall": 0.694091796875,
+    "density": 0.0021484375938598532,
+    "coverage": 0.0048828125,
+    "mmd": 0.4128030287101865
+   },
+   "20": {
+    "fidelity_is_cosine": 0.5009765625,
+    "freq_tv_distance": 0.4990234375,
+    "plausible_modes_found": 0.609375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.00010284781455993652,
+    "precision": 0.00390625,
+    "recall": 0.81982421875,
+    "density": 0.0010253906511934474,
+    "coverage": 0.003662109375,
+    "mmd": 0.31350292544811964
+   }
+  },
+  "_file": "cosine/cnp/s1/metrics.json",
+  "_group": "cosine/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/cnp/s2/ckpt.pt",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 0.3979032192379236,
+   "num_batches": 50,
+   "seconds": 0.7024941444396973
+  },
+  "calibration": {
+   "coverage_50": 0.4961751401424408,
+   "coverage_90": 0.8623860478401184,
+   "crps": 0.17215757071971893,
+   "pit_hist": [
+    0.1048177108168602,
+    0.0882568359375,
+    0.1067301407456398,
+    0.0934244766831398,
+    0.0978597030043602,
+    0.11083984375,
+    0.093505859375,
+    0.1064860001206398,
+    0.0862223282456398,
+    0.1118570938706398
+   ],
+   "pit_flatness": 0.0407307930290699,
+   "seconds": 0.8340005874633789
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.00011312589049339294,
+    "precision": 0.023681640625,
+    "recall": 0.75048828125,
+    "density": 0.005175781258003553,
+    "coverage": 0.006591796875,
+    "mmd": 0.052153429947793484
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 9.791553020477295e-05,
+    "precision": 0.0859375,
+    "recall": 0.706787109375,
+    "density": 0.05322265697759576,
+    "coverage": 0.01318359375,
+    "mmd": 0.17092142440378666
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.00012724846601486206,
+    "precision": 0.06103515625,
+    "recall": 0.74658203125,
+    "density": 0.031152343610301614,
+    "coverage": 0.003662109375,
+    "mmd": 0.46113618835806847
+   },
+   "5": {
+    "fidelity_is_cosine": 0.00830078125,
+    "freq_tv_distance": 0.99169921875,
+    "plausible_modes_found": 0.015625,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.00011917576193809509,
+    "precision": 0.015625,
+    "recall": 0.610107421875,
+    "density": 0.0062500000931322575,
+    "coverage": 0.00048828125,
+    "mmd": 0.6140909036621451
+   },
+   "10": {
+    "fidelity_is_cosine": 0.312255859375,
+    "freq_tv_distance": 0.687744140625,
+    "plausible_modes_found": 0.421875,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.00011588260531425476,
+    "precision": 0.0009765625,
+    "recall": 0.649658203125,
+    "density": 0.00019531250291038305,
+    "coverage": 0.000732421875,
+    "mmd": 0.42770094610750675
+   },
+   "20": {
+    "fidelity_is_cosine": 0.48779296875,
+    "freq_tv_distance": 0.51220703125,
+    "plausible_modes_found": 0.625,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.00014701485633850098,
+    "precision": 0.01025390625,
+    "recall": 0.818359375,
+    "density": 0.00322265620707185,
+    "coverage": 0.00927734375,
+    "mmd": 0.3150630835443735
+   }
+  },
+  "_file": "cosine/cnp/s2/metrics.json",
+  "_group": "cosine/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s0/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.2741152250766754,
+   "num_batches": 50,
+   "seconds": 139.73304963111877
+  },
+  "calibration": {
+   "coverage_50": 0.4772542417049408,
+   "coverage_90": 0.8508707880973816,
+   "crps": 0.11691873520612717,
+   "pit_hist": [
+    0.1120198592543602,
+    0.0896402969956398,
+    0.1013590469956398,
+    0.0911865234375,
+    0.0948893204331398,
+    0.1046956405043602,
+    0.0904134139418602,
+    0.1018473282456398,
+    0.09033203125,
+    0.1236165389418602
+   ],
+   "pit_flatness": 0.0435384139418602,
+   "seconds": 349.2571520805359
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.3232421875,
+    "freq_tv_distance": 0.701904296875,
+    "plausible_modes_found": 0.6640625,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 1.0542094595730305,
+    "precision": 0.872314453125,
+    "recall": 0.5126953125,
+    "density": 1.1643554654438049,
+    "coverage": 0.51806640625,
+    "mmd": 0.20918955840170383
+   },
+   "2": {
+    "fidelity_is_cosine": 0.343505859375,
+    "freq_tv_distance": 0.7299745082855225,
+    "plausible_modes_found": 0.6106771230697632,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.0887128449976444,
+    "precision": 0.38525390625,
+    "recall": 0.65673828125,
+    "density": 0.26884765739305294,
+    "coverage": 0.1494140625,
+    "mmd": 0.30350568052381277
+   },
+   "3": {
+    "fidelity_is_cosine": 0.40283203125,
+    "freq_tv_distance": 0.6868161559104919,
+    "plausible_modes_found": 0.8046875596046448,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.0958996303379536,
+    "precision": 0.2333984375,
+    "recall": 0.767333984375,
+    "density": 0.13041992111175205,
+    "coverage": 0.164794921875,
+    "mmd": 0.5323098450899124
+   },
+   "5": {
+    "fidelity_is_cosine": 0.52001953125,
+    "freq_tv_distance": 0.5053038597106934,
+    "plausible_modes_found": 0.8984375,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 1.097306288778782,
+    "precision": 0.132568359375,
+    "recall": 0.8701171875,
+    "density": 0.08754882796347374,
+    "coverage": 0.188720703125,
+    "mmd": 0.47546454705297947
+   },
+   "10": {
+    "fidelity_is_cosine": 0.942138671875,
+    "freq_tv_distance": 0.057861328125,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.1567469537258148,
+    "precision": 0.312744140625,
+    "recall": 0.907470703125,
+    "density": 0.24418945294746663,
+    "coverage": 0.487548828125,
+    "mmd": 0.11461479216814041
+   },
+   "20": {
+    "fidelity_is_cosine": 0.977783203125,
+    "freq_tv_distance": 0.022216796875,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.2407015264034271,
+    "precision": 0.4541015625,
+    "recall": 0.83154296875,
+    "density": 0.4304199224461627,
+    "coverage": 0.624755859375,
+    "mmd": 0.06155106704682112
+   }
+  },
+  "_file": "cosine/flownp/s0/metrics.json",
+  "_group": "cosine/flownp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s1/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.2727683591842651,
+   "num_batches": 50,
+   "seconds": 135.5334451198578
+  },
+  "calibration": {
+   "coverage_50": 0.47998046875,
+   "coverage_90": 0.8566080927848816,
+   "crps": 0.11476200819015503,
+   "pit_hist": [
+    0.1128743514418602,
+    0.0928955078125,
+    0.1038818359375,
+    0.0942789688706398,
+    0.09228515625,
+    0.1068522110581398,
+    0.0903727188706398,
+    0.0999348983168602,
+    0.089599609375,
+    0.1170247420668602
+   ],
+   "pit_flatness": 0.04063314199447632,
+   "seconds": 393.1868951320648
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.392578125,
+    "freq_tv_distance": 0.67236328125,
+    "plausible_modes_found": 0.703125,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 1.161149200052023,
+    "precision": 0.87548828125,
+    "recall": 0.57080078125,
+    "density": 1.1430664032232016,
+    "coverage": 0.576171875,
+    "mmd": 0.18195729050785303
+   },
+   "2": {
+    "fidelity_is_cosine": 0.385498046875,
+    "freq_tv_distance": 0.700364351272583,
+    "plausible_modes_found": 0.68359375,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.1724804639816284,
+    "precision": 0.417236328125,
+    "recall": 0.720947265625,
+    "density": 0.2968261729402002,
+    "coverage": 0.210205078125,
+    "mmd": 0.26203176472336054
+   },
+   "3": {
+    "fidelity_is_cosine": 0.444580078125,
+    "freq_tv_distance": 0.6571703553199768,
+    "plausible_modes_found": 0.8046875596046448,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.152449257671833,
+    "precision": 0.277099609375,
+    "recall": 0.81396484375,
+    "density": 0.18486328184371814,
+    "coverage": 0.25,
+    "mmd": 0.4856221964582801
+   },
+   "5": {
+    "fidelity_is_cosine": 0.49560546875,
+    "freq_tv_distance": 0.5197710990905762,
+    "plausible_modes_found": 0.9296875,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 1.202265664935112,
+    "precision": 0.15380859375,
+    "recall": 0.883544921875,
+    "density": 0.13540038939754595,
+    "coverage": 0.24560546875,
+    "mmd": 0.46233237627893686
+   },
+   "10": {
+    "fidelity_is_cosine": 0.924560546875,
+    "freq_tv_distance": 0.076171875,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.240750964730978,
+    "precision": 0.3623046875,
+    "recall": 0.818359375,
+    "density": 0.38266601603027084,
+    "coverage": 0.56689453125,
+    "mmd": 0.12797089153900743
+   },
+   "20": {
+    "fidelity_is_cosine": 0.973388671875,
+    "freq_tv_distance": 0.026611328125,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.001788068562746,
+    "precision": 0.54248046875,
+    "recall": 0.725341796875,
+    "density": 0.6961914114945102,
+    "coverage": 0.7294921875,
+    "mmd": 0.061530577018857
+   }
+  },
+  "_file": "cosine/flownp/s1/metrics.json",
+  "_group": "cosine/flownp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s2/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.276808921098709,
+   "num_batches": 50,
+   "seconds": 163.44695210456848
+  },
+  "calibration": {
+   "coverage_50": 0.4740397036075592,
+   "coverage_90": 0.8476969599723816,
+   "crps": 0.11180984973907471,
+   "pit_hist": [
+    0.1183675155043602,
+    0.091064453125,
+    0.1020100936293602,
+    0.0914306640625,
+    0.091552734375,
+    0.10400390625,
+    0.090576171875,
+    0.1004638671875,
+    0.0876871719956398,
+    0.1228434219956398
+   ],
+   "pit_flatness": 0.0476888045668602,
+   "seconds": 368.7240192890167
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.346435546875,
+    "freq_tv_distance": 0.662353515625,
+    "plausible_modes_found": 0.7734375,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 1.0346186086535454,
+    "precision": 0.841796875,
+    "recall": 0.5615234375,
+    "density": 1.1349121145904064,
+    "coverage": 0.581298828125,
+    "mmd": 0.175512021407485
+   },
+   "2": {
+    "fidelity_is_cosine": 0.342041015625,
+    "freq_tv_distance": 0.6844742298126221,
+    "plausible_modes_found": 0.7265625596046448,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.064386259764433,
+    "precision": 0.382080078125,
+    "recall": 0.729248046875,
+    "density": 0.2770507824643573,
+    "coverage": 0.204345703125,
+    "mmd": 0.23947188816964626
+   },
+   "3": {
+    "fidelity_is_cosine": 0.41748046875,
+    "freq_tv_distance": 0.6720936298370361,
+    "plausible_modes_found": 0.8645833730697632,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.0717183947563171,
+    "precision": 0.240478515625,
+    "recall": 0.846435546875,
+    "density": 0.14916992313737865,
+    "coverage": 0.1982421875,
+    "mmd": 0.5058223074302077
+   },
+   "5": {
+    "fidelity_is_cosine": 0.552001953125,
+    "freq_tv_distance": 0.466656357049942,
+    "plausible_modes_found": 0.9296875,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 1.074763935059309,
+    "precision": 0.167724609375,
+    "recall": 0.85009765625,
+    "density": 0.13002929722279077,
+    "coverage": 0.283203125,
+    "mmd": 0.4420383404940367
+   },
+   "10": {
+    "fidelity_is_cosine": 0.940673828125,
+    "freq_tv_distance": 0.0595703125,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.133398126810789,
+    "precision": 0.397216796875,
+    "recall": 0.81787109375,
+    "density": 0.39155273491269327,
+    "coverage": 0.60107421875,
+    "mmd": 0.1121936310082674
+   },
+   "20": {
+    "fidelity_is_cosine": 0.979736328125,
+    "freq_tv_distance": 0.020263671875,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.2185372933745384,
+    "precision": 0.56298828125,
+    "recall": 0.7216796875,
+    "density": 0.7031249976789695,
+    "coverage": 0.73046875,
+    "mmd": 0.057533470913767815
+   }
+  },
+  "_file": "cosine/flownp/s2/metrics.json",
+  "_group": "cosine/flownp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp_desde_cero/s0/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": -0.8320850014686585,
+   "num_batches": 50,
+   "seconds": 82.135493516922
+  },
+  "calibration": {
+   "coverage_50": 0.5240885615348816,
+   "coverage_90": 0.9039713740348816,
+   "crps": 0.5151493549346924,
+   "pit_hist": [
+    0.082763671875,
+    0.0926513671875,
+    0.1146647110581398,
+    0.0971272811293602,
+    0.1053059920668602,
+    0.1210530623793602,
+    0.0966389998793602,
+    0.1107991561293602,
+    0.0900065079331398,
+    0.0889892578125
+   ],
+   "pit_flatness": 0.05182291939854622,
+   "seconds": 159.24319982528687
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.46098659187555313,
+    "precision": 0.001220703125,
+    "recall": 0.869384765625,
+    "density": 0.0002441406286379788,
+    "coverage": 0.001220703125,
+    "mmd": 0.10403069667518139
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.4660097472369671,
+    "precision": 0.030029296875,
+    "recall": 0.913818359375,
+    "density": 0.014013671752763912,
+    "coverage": 0.00732421875,
+    "mmd": 0.24858232028782368
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.46946070715785027,
+    "precision": 0.00439453125,
+    "recall": 0.95703125,
+    "density": 0.0012695312616415322,
+    "coverage": 0.0009765625,
+    "mmd": 0.46305516827851534
+   },
+   "5": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.4802834279835224,
+    "precision": 0.004150390625,
+    "recall": 0.917724609375,
+    "density": 0.0015625000232830644,
+    "coverage": 0.00048828125,
+    "mmd": 0.582882596179843
+   },
+   "10": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.498337022960186,
+    "precision": 0.0,
+    "recall": 0.97021484375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.5920251477509737
+   },
+   "20": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.5356326550245285,
+    "precision": 0.0,
+    "recall": 0.997802734375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.6118606179952621
+   }
+  },
+  "_file": "cosine/flownp_desde_cero/s0/metrics.json",
+  "_group": "cosine/flownp_desde_cero"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp_desde_cero/s1/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": -0.8351818692684173,
+   "num_batches": 50,
+   "seconds": 151.4160521030426
+  },
+  "calibration": {
+   "coverage_50": 0.5187581181526184,
+   "coverage_90": 0.9023844599723816,
+   "crps": 0.5169081687927246,
+   "pit_hist": [
+    0.0836181640625,
+    0.0931803360581398,
+    0.1111653670668602,
+    0.097412109375,
+    0.1055501326918602,
+    0.1195882186293602,
+    0.0928955078125,
+    0.1125895157456398,
+    0.0941162109375,
+    0.0898844376206398
+   ],
+   "pit_flatness": 0.04889323562383652,
+   "seconds": 364.78961634635925
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.839033205062151,
+    "precision": 0.000244140625,
+    "recall": 0.8857421875,
+    "density": 4.882812572759576e-05,
+    "coverage": 0.000244140625,
+    "mmd": 0.1155754067003727
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.7145690992474556,
+    "precision": 0.031982421875,
+    "recall": 0.91552734375,
+    "density": 0.015478515371796675,
+    "coverage": 0.00732421875,
+    "mmd": 0.25838677957654
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.1300884112715721,
+    "precision": 0.005859375,
+    "recall": 0.960693359375,
+    "density": 0.0015625000232830644,
+    "coverage": 0.0009765625,
+    "mmd": 0.46219575963914394
+   },
+   "5": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 1.1596171632409096,
+    "precision": 0.003662109375,
+    "recall": 0.912353515625,
+    "density": 0.00146484375,
+    "coverage": 0.00048828125,
+    "mmd": 0.5762108517810702
+   },
+   "10": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.242293443530798,
+    "precision": 0.0,
+    "recall": 0.9521484375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.5864695319905877
+   },
+   "20": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.3334188647568226,
+    "precision": 0.0,
+    "recall": 0.9912109375,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.6117869280278683
+   }
+  },
+  "_file": "cosine/flownp_desde_cero/s1/metrics.json",
+  "_group": "cosine/flownp_desde_cero"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/flownp_desde_cero/s2/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": -0.8318480920791625,
+   "num_batches": 50,
+   "seconds": 109.57282757759094
+  },
+  "calibration": {
+   "coverage_50": 0.5180256962776184,
+   "coverage_90": 0.8998616337776184,
+   "crps": 0.5154265761375427,
+   "pit_hist": [
+    0.0857340469956398,
+    0.0940755233168602,
+    0.1089274063706398,
+    0.098876953125,
+    0.1037190780043602,
+    0.119140625,
+    0.0950927734375,
+    0.1110026016831398,
+    0.0919189453125,
+    0.0915120467543602
+   ],
+   "pit_flatness": 0.04278971254825592,
+   "seconds": 157.2841761112213
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 0.45344842225313187,
+    "precision": 0.0,
+    "recall": 0.92578125,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.13358487840741873
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 0.4587291553616524,
+    "precision": 0.021484375,
+    "recall": 0.9296875,
+    "density": 0.00888671881693881,
+    "coverage": 0.00732421875,
+    "mmd": 0.25755692180246115
+   },
+   "3": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 0.4615853577852249,
+    "precision": 0.00341796875,
+    "recall": 0.9736328125,
+    "density": 0.0010742187732830644,
+    "coverage": 0.0009765625,
+    "mmd": 0.45988832972943783
+   },
+   "5": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 0.4728257916867733,
+    "precision": 0.004150390625,
+    "recall": 0.927734375,
+    "density": 0.0016113281017169356,
+    "coverage": 0.00048828125,
+    "mmd": 0.577915059402585
+   },
+   "10": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.4887005351483822,
+    "precision": 0.0,
+    "recall": 0.96533203125,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.589874199591577
+   },
+   "20": {
+    "fidelity_is_cosine": 0.0,
+    "freq_tv_distance": 1.0,
+    "plausible_modes_found": 0.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 0.5228859111666679,
+    "precision": 0.0,
+    "recall": 0.995361328125,
+    "density": 0.0,
+    "coverage": 0.0,
+    "mmd": 0.6149511784315109
+   }
+  },
+  "_file": "cosine/flownp_desde_cero/s2/metrics.json",
+  "_group": "cosine/flownp_desde_cero"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/ndp/s0/ckpt.pt",
+  "model": "official:ndp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.3720744669437408,
+   "num_batches": 50,
+   "seconds": 474.1972851753235
+  },
+  "calibration": {
+   "coverage_50": 0.32568359375,
+   "coverage_90": 0.6215413212776184,
+   "crps": 0.534666121006012,
+   "pit_hist": [
+    0.2357177734375,
+    0.0659586563706398,
+    0.0726725235581398,
+    0.0664469376206398,
+    0.0543212890625,
+    0.0608723945915699,
+    0.071044921875,
+    0.0801188126206398,
+    0.0635172501206398,
+    0.2293294221162796
+   ],
+   "pit_flatness": 0.26504722237586975,
+   "seconds": 663.0113632678986
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.68603515625,
+    "freq_tv_distance": 0.336669921875,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 1.9783154092729092,
+    "precision": 0.68359375,
+    "recall": 0.49755859375,
+    "density": 1.0329589899665734,
+    "coverage": 0.5322265625,
+    "mmd": 0.2424311675131321
+   },
+   "2": {
+    "fidelity_is_cosine": 0.63671875,
+    "freq_tv_distance": 0.5035687685012817,
+    "plausible_modes_found": 0.99609375,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.9921968840062618,
+    "precision": 0.314208984375,
+    "recall": 0.490478515625,
+    "density": 0.26713867181751993,
+    "coverage": 0.10498046875,
+    "mmd": 0.4653135044500232
+   },
+   "3": {
+    "fidelity_is_cosine": 0.5947265625,
+    "freq_tv_distance": 0.7593428492546082,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 2.011867668479681,
+    "precision": 0.12646484375,
+    "recall": 0.565185546875,
+    "density": 0.09208984273936949,
+    "coverage": 0.057373046875,
+    "mmd": 0.932183288037777
+   },
+   "5": {
+    "fidelity_is_cosine": 0.596435546875,
+    "freq_tv_distance": 0.8110031485557556,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 2.0551504902541637,
+    "precision": 0.01806640625,
+    "recall": 0.45263671875,
+    "density": 0.007812500218278728,
+    "coverage": 0.008056640625,
+    "mmd": 1.278387206606567
+   },
+   "10": {
+    "fidelity_is_cosine": 0.546875,
+    "freq_tv_distance": 0.8298332095146179,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.1158329471945763,
+    "precision": 0.00830078125,
+    "recall": 0.45654296875,
+    "density": 0.003662109469587449,
+    "coverage": 0.009521484375,
+    "mmd": 1.256369293667376
+   },
+   "20": {
+    "fidelity_is_cosine": 0.48828125,
+    "freq_tv_distance": 0.8348595499992371,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.2628963738679886,
+    "precision": 0.007568359375,
+    "recall": 0.43701171875,
+    "density": 0.02788085927022621,
+    "coverage": 0.0361328125,
+    "mmd": 1.3115272084251046
+   }
+  },
+  "_file": "cosine/ndp/s0/metrics.json",
+  "_group": "cosine/ndp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/ndp/s1/ckpt.pt",
+  "model": "official:ndp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.3872044968605042,
+   "num_batches": 50,
+   "seconds": 456.471360206604
+  },
+  "calibration": {
+   "coverage_50": 0.3180745542049408,
+   "coverage_90": 0.6390380859375,
+   "crps": 0.5313143730163574,
+   "pit_hist": [
+    0.2251790314912796,
+    0.0720621719956398,
+    0.0808512344956398,
+    0.0633544921875,
+    0.0550130195915699,
+    0.062255859375,
+    0.0612386055290699,
+    0.0839029923081398,
+    0.0711669921875,
+    0.2249755859375
+   ],
+   "pit_flatness": 0.25015461444854736,
+   "seconds": 690.6975111961365
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.69189453125,
+    "freq_tv_distance": 0.32470703125,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 2.0678816363215446,
+    "precision": 0.7041015625,
+    "recall": 0.56298828125,
+    "density": 1.0614257756387815,
+    "coverage": 0.560546875,
+    "mmd": 0.23822516668587923
+   },
+   "2": {
+    "fidelity_is_cosine": 0.641357421875,
+    "freq_tv_distance": 0.4874814748764038,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 2.080612674355507,
+    "precision": 0.309326171875,
+    "recall": 0.55224609375,
+    "density": 0.25395507716893917,
+    "coverage": 0.101318359375,
+    "mmd": 0.4635187964886427
+   },
+   "3": {
+    "fidelity_is_cosine": 0.580078125,
+    "freq_tv_distance": 0.7553504109382629,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 2.0909773409366608,
+    "precision": 0.122802734375,
+    "recall": 0.692138671875,
+    "density": 0.07504882941429969,
+    "coverage": 0.05029296875,
+    "mmd": 0.9408052694052458
+   },
+   "5": {
+    "fidelity_is_cosine": 0.593017578125,
+    "freq_tv_distance": 0.8124679923057556,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 2.4446291364729404,
+    "precision": 0.01708984375,
+    "recall": 0.555908203125,
+    "density": 0.008691406099387677,
+    "coverage": 0.013671875,
+    "mmd": 1.2776163192465901
+   },
+   "10": {
+    "fidelity_is_cosine": 0.54345703125,
+    "freq_tv_distance": 0.8247062563896179,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 3.5824904814362526,
+    "precision": 0.00537109375,
+    "recall": 0.51513671875,
+    "density": 0.007080078008584678,
+    "coverage": 0.0224609375,
+    "mmd": 1.2585775186307728
+   },
+   "20": {
+    "fidelity_is_cosine": 0.489501953125,
+    "freq_tv_distance": 0.8380333781242371,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 3.98445800319314,
+    "precision": 0.005126953125,
+    "recall": 0.491455078125,
+    "density": 0.014257812697906047,
+    "coverage": 0.0146484375,
+    "mmd": 1.3293743804097176
+   }
+  },
+  "_file": "cosine/ndp/s1/metrics.json",
+  "_group": "cosine/ndp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/ndp/s2/ckpt.pt",
+  "model": "official:ndp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.3557040059566499,
+   "num_batches": 50,
+   "seconds": 491.4167103767395
+  },
+  "calibration": {
+   "coverage_50": 0.3251139223575592,
+   "coverage_90": 0.6336669921875,
+   "crps": 0.5321938395500183,
+   "pit_hist": [
+    0.2307535856962204,
+    0.066650390625,
+    0.0764973983168602,
+    0.0685628280043602,
+    0.0580647774040699,
+    0.0631510391831398,
+    0.0629068985581398,
+    0.07763671875,
+    0.0691731795668602,
+    0.2266031950712204
+   ],
+   "pit_flatness": 0.25735676288604736,
+   "seconds": 653.6625626087189
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.63037109375,
+    "freq_tv_distance": 0.380859375,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 1.9367042668163776,
+    "precision": 0.697509765625,
+    "recall": 0.535888671875,
+    "density": 1.0979003867541905,
+    "coverage": 0.546875,
+    "mmd": 0.2561245523393154
+   },
+   "2": {
+    "fidelity_is_cosine": 0.581787109375,
+    "freq_tv_distance": 0.5322139859199524,
+    "plausible_modes_found": 0.99609375,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.9495646208524704,
+    "precision": 0.319580078125,
+    "recall": 0.549560546875,
+    "density": 0.278906250725413,
+    "coverage": 0.115234375,
+    "mmd": 0.47981052845716476
+   },
+   "3": {
+    "fidelity_is_cosine": 0.5146484375,
+    "freq_tv_distance": 0.7838302254676819,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.9697896130383015,
+    "precision": 0.130859375,
+    "recall": 0.63525390625,
+    "density": 0.09267578289291123,
+    "coverage": 0.05419921875,
+    "mmd": 0.9678086712956429
+   },
+   "5": {
+    "fidelity_is_cosine": 0.529296875,
+    "freq_tv_distance": 0.8317551016807556,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 2.007384806871414,
+    "precision": 0.017333984375,
+    "recall": 0.5400390625,
+    "density": 0.008691406292200554,
+    "coverage": 0.012451171875,
+    "mmd": 1.3078432120382786
+   },
+   "10": {
+    "fidelity_is_cosine": 0.470458984375,
+    "freq_tv_distance": 0.8500968813896179,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.0712744295597076,
+    "precision": 0.008056640625,
+    "recall": 0.53515625,
+    "density": 0.0047363281082652975,
+    "coverage": 0.0146484375,
+    "mmd": 1.2843002951703966
+   },
+   "20": {
+    "fidelity_is_cosine": 0.41357421875,
+    "freq_tv_distance": 0.8634240031242371,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.420515574514866,
+    "precision": 0.008544921875,
+    "recall": 0.435302734375,
+    "density": 0.017382812569849193,
+    "coverage": 0.045654296875,
+    "mmd": 1.3520259326323867
+   }
+  },
+  "_file": "cosine/ndp/s2/metrics.json",
+  "_group": "cosine/ndp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s0/ckpt.pt",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.2159469652175903,
+   "num_batches": 50,
+   "seconds": 1.997687578201294
+  },
+  "calibration": {
+   "coverage_50": 0.5425618290901184,
+   "coverage_90": 0.9139404296875,
+   "crps": 0.11812175065279007,
+   "pit_hist": [
+    0.0791829451918602,
+    0.0870361328125,
+    0.1136067733168602,
+    0.1031087264418602,
+    0.1064860001206398,
+    0.1216634139418602,
+    0.1015625,
+    0.1164957657456398,
+    0.0908610001206398,
+    0.0799967423081398
+   ],
+   "pit_flatness": 0.06292317807674408,
+   "seconds": 140.74039030075073
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0400390625,
+    "freq_tv_distance": 0.9599609375,
+    "plausible_modes_found": 0.328125,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 3.4716274924576283,
+    "precision": 0.57568359375,
+    "recall": 0.96142578125,
+    "density": 0.44360351463546976,
+    "coverage": 0.5615234375,
+    "mmd": 0.013602251186966896
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0693359375,
+    "freq_tv_distance": 0.9314537048339844,
+    "plausible_modes_found": 0.4010416865348816,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 3.485646367073059,
+    "precision": 0.18408203125,
+    "recall": 0.98388671875,
+    "density": 0.11704101609939244,
+    "coverage": 0.07958984375,
+    "mmd": 0.10956411063671112
+   },
+   "3": {
+    "fidelity_is_cosine": 0.13916015625,
+    "freq_tv_distance": 0.8710393309593201,
+    "plausible_modes_found": 0.5729166865348816,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 3.165857158601284,
+    "precision": 0.097412109375,
+    "recall": 0.984130859375,
+    "density": 0.04667968724970706,
+    "coverage": 0.047607421875,
+    "mmd": 0.3674450619146228
+   },
+   "5": {
+    "fidelity_is_cosine": 0.218505859375,
+    "freq_tv_distance": 0.7878375053405762,
+    "plausible_modes_found": 0.796875,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 2.0764181800186634,
+    "precision": 0.026611328125,
+    "recall": 0.99560546875,
+    "density": 0.010156249874853529,
+    "coverage": 0.026611328125,
+    "mmd": 0.4433088740333915
+   },
+   "10": {
+    "fidelity_is_cosine": 0.81396484375,
+    "freq_tv_distance": 0.18603515625,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.1487009450793266,
+    "precision": 0.1064453125,
+    "recall": 0.992919921875,
+    "density": 0.04721679667272838,
+    "coverage": 0.16748046875,
+    "mmd": 0.14854709804058075
+   },
+   "20": {
+    "fidelity_is_cosine": 0.943359375,
+    "freq_tv_distance": 0.056640625,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.275676280260086,
+    "precision": 0.17578125,
+    "recall": 0.9794921875,
+    "density": 0.08354492160651716,
+    "coverage": 0.25927734375,
+    "mmd": 0.08077819086611271
+   }
+  },
+  "_file": "cosine/tnpa/s0/metrics.json",
+  "_group": "cosine/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s1/ckpt.pt",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.1808335840702058,
+   "num_batches": 50,
+   "seconds": 2.0226082801818848
+  },
+  "calibration": {
+   "coverage_50": 0.53564453125,
+   "coverage_90": 0.9149983525276184,
+   "crps": 0.13059498369693756,
+   "pit_hist": [
+    0.0794270858168602,
+    0.0902913436293602,
+    0.1129150390625,
+    0.1031087264418602,
+    0.1034749373793602,
+    0.1195882186293602,
+    0.1031087264418602,
+    0.115478515625,
+    0.0896809920668602,
+    0.0829264298081398
+   ],
+   "pit_flatness": 0.05767415463924408,
+   "seconds": 145.89846277236938
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.0380859375,
+    "freq_tv_distance": 0.9619140625,
+    "plausible_modes_found": 0.30078125,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 3.355828806757927,
+    "precision": 0.553955078125,
+    "recall": 0.9619140625,
+    "density": 0.4372558575705625,
+    "coverage": 0.5537109375,
+    "mmd": 0.01400283444672823
+   },
+   "2": {
+    "fidelity_is_cosine": 0.045654296875,
+    "freq_tv_distance": 0.954345703125,
+    "plausible_modes_found": 0.3359375,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 1.8656523786485195,
+    "precision": 0.16943359375,
+    "recall": 0.96923828125,
+    "density": 0.11054687399882823,
+    "coverage": 0.073974609375,
+    "mmd": 0.12130107451230288
+   },
+   "3": {
+    "fidelity_is_cosine": 0.123779296875,
+    "freq_tv_distance": 0.8836402297019958,
+    "plausible_modes_found": 0.5364583730697632,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 1.886896912008524,
+    "precision": 0.096435546875,
+    "recall": 0.987548828125,
+    "density": 0.043261719605652615,
+    "coverage": 0.039794921875,
+    "mmd": 0.3725113458931446
+   },
+   "5": {
+    "fidelity_is_cosine": 0.166015625,
+    "freq_tv_distance": 0.838134765625,
+    "plausible_modes_found": 0.6875,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 1.9172317832708359,
+    "precision": 0.02685546875,
+    "recall": 0.9921875,
+    "density": 0.009716796983411768,
+    "coverage": 0.02197265625,
+    "mmd": 0.47230477165430784
+   },
+   "10": {
+    "fidelity_is_cosine": 0.70654296875,
+    "freq_tv_distance": 0.294189453125,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.965970203280449,
+    "precision": 0.07421875,
+    "recall": 0.992919921875,
+    "density": 0.029541015766881173,
+    "coverage": 0.101806640625,
+    "mmd": 0.1964240623638034
+   },
+   "20": {
+    "fidelity_is_cosine": 0.91015625,
+    "freq_tv_distance": 0.08984375,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.052814867347479,
+    "precision": 0.134765625,
+    "recall": 0.982177734375,
+    "density": 0.06147460943975602,
+    "coverage": 0.19384765625,
+    "mmd": 0.10214792843908072
+   }
+  },
+  "_file": "cosine/tnpa/s1/metrics.json",
+  "_group": "cosine/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/tnpa/s2/ckpt.pt",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+   "tar_ll": 1.2161935544013978,
+   "num_batches": 50,
+   "seconds": 1.2905502319335938
+  },
+  "calibration": {
+   "coverage_50": 0.5419108271598816,
+   "coverage_90": 0.9149169921875,
+   "crps": 0.11768946796655655,
+   "pit_hist": [
+    0.0781656876206398,
+    0.0876057967543602,
+    0.1173502579331398,
+    0.1025797501206398,
+    0.1055501326918602,
+    0.1216227188706398,
+    0.1036376953125,
+    0.113037109375,
+    0.0894368514418602,
+    0.0810139998793602
+   ],
+   "pit_flatness": 0.06377766281366348,
+   "seconds": 110.67970633506775
+  },
+  "cosine": {
+   "1": {
+    "fidelity_is_cosine": 0.045166015625,
+    "freq_tv_distance": 0.954833984375,
+    "plausible_modes_found": 0.34375,
+    "num_plausible_modes": 4.0,
+    "seconds_per_task": 3.3196355625987053,
+    "precision": 0.595703125,
+    "recall": 0.959716796875,
+    "density": 0.4601562531897798,
+    "coverage": 0.595458984375,
+    "mmd": 0.011983336880803108
+   },
+   "2": {
+    "fidelity_is_cosine": 0.0751953125,
+    "freq_tv_distance": 0.9256298542022705,
+    "plausible_modes_found": 0.4596354365348816,
+    "num_plausible_modes": 3.03125,
+    "seconds_per_task": 3.4119967706501484,
+    "precision": 0.177490234375,
+    "recall": 0.980224609375,
+    "density": 0.11562499947467586,
+    "coverage": 0.084228515625,
+    "mmd": 0.10915274079889059
+   },
+   "3": {
+    "fidelity_is_cosine": 0.145751953125,
+    "freq_tv_distance": 0.862766444683075,
+    "plausible_modes_found": 0.6067708730697632,
+    "num_plausible_modes": 1.46875,
+    "seconds_per_task": 3.449836567044258,
+    "precision": 0.098876953125,
+    "recall": 0.991943359375,
+    "density": 0.04707031244470272,
+    "coverage": 0.052001953125,
+    "mmd": 0.36534987576305866
+   },
+   "5": {
+    "fidelity_is_cosine": 0.236572265625,
+    "freq_tv_distance": 0.7687082290649414,
+    "plausible_modes_found": 0.828125,
+    "num_plausible_modes": 1.03125,
+    "seconds_per_task": 3.1927611269056797,
+    "precision": 0.02734375,
+    "recall": 0.988525390625,
+    "density": 0.010644531295838533,
+    "coverage": 0.031494140625,
+    "mmd": 0.4280813643708825
+   },
+   "10": {
+    "fidelity_is_cosine": 0.80078125,
+    "freq_tv_distance": 0.19946283102035522,
+    "plausible_modes_found": 0.984375,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 1.9505572579801083,
+    "precision": 0.096923828125,
+    "recall": 0.989990234375,
+    "density": 0.0397949221842282,
+    "coverage": 0.134765625,
+    "mmd": 0.15476410184055567
+   },
+   "20": {
+    "fidelity_is_cosine": 0.94189453125,
+    "freq_tv_distance": 0.05810546875,
+    "plausible_modes_found": 1.0,
+    "num_plausible_modes": 1.0,
+    "seconds_per_task": 2.221182256937027,
+    "precision": 0.183349609375,
+    "recall": 0.97705078125,
+    "density": 0.09169921836291905,
+    "coverage": 0.27783203125,
+    "mmd": 0.08256767597049475
+   }
+  },
+  "_file": "cosine/tnpa/s2/metrics.json",
+  "_group": "cosine/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s0/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5793207883834839,
+   "coverage_90": 0.9123086929321289,
+   "crps": 0.090409055352211,
+   "pit_hist": [
+    0.07437819242477417,
+    0.07804527878761292,
+    0.11455675959587097,
+    0.1149553582072258,
+    0.1149553582072258,
+    0.13671875,
+    0.10538902878761292,
+    0.10873724520206451,
+    0.07661033421754837,
+    0.07565370202064514
+   ],
+   "pit_flatness": 0.09531249105930328,
+   "seconds": 0.9175610542297363
+  },
+  "_file": "eval_official/matern/anp/s0/metrics.json",
+  "_group": "eval_official/matern/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s1/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5754942893981934,
+   "coverage_90": 0.9112723469734192,
+   "crps": 0.09061583876609802,
+   "pit_hist": [
+    0.07676976919174194,
+    0.07884247601032257,
+    0.11312180757522583,
+    0.11328125,
+    0.11710777878761292,
+    0.1333705335855484,
+    0.1021205335855484,
+    0.11033163219690323,
+    0.07557398080825806,
+    0.07948023080825806
+   ],
+   "pit_flatness": 0.08933353424072266,
+   "seconds": 0.7068195343017578
+  },
+  "_file": "eval_official/matern/anp/s1/metrics.json",
+  "_group": "eval_official/matern/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s2/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5736607313156128,
+   "coverage_90": 0.9114317893981934,
+   "crps": 0.09022486209869385,
+   "pit_hist": [
+    0.07884247601032257,
+    0.0792410746216774,
+    0.11535395681858063,
+    0.1082589253783226,
+    0.11447703838348389,
+    0.13823342323303223,
+    0.10052614659070969,
+    0.11128826439380646,
+    0.07732780277729034,
+    0.0764508917927742
+   ],
+   "pit_flatness": 0.08813776075839996,
+   "seconds": 0.7086832523345947
+  },
+  "_file": "eval_official/matern/anp/s2/metrics.json",
+  "_group": "eval_official/matern/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s3/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5738998651504517,
+   "coverage_90": 0.9112723469734192,
+   "crps": 0.08992964029312134,
+   "pit_hist": [
+    0.07788584381341934,
+    0.07804527878761292,
+    0.1155133917927742,
+    0.1127232164144516,
+    0.11599171161651611,
+    0.13480548560619354,
+    0.10060586780309677,
+    0.10969387739896774,
+    0.07955995202064514,
+    0.07517538219690323
+   ],
+   "pit_flatness": 0.08933354914188385,
+   "seconds": 0.6416110992431641
+  },
+  "_file": "eval_official/matern/anp/s3/metrics.json",
+  "_group": "eval_official/matern/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/anp/s4/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5768494606018066,
+   "coverage_90": 0.9140625,
+   "crps": 0.08987713605165482,
+   "pit_hist": [
+    0.07748724520206451,
+    0.07740752398967743,
+    0.1099330335855484,
+    0.11200574040412903,
+    0.12021683901548386,
+    0.13241390883922577,
+    0.10738201439380646,
+    0.10873724520206451,
+    0.07955995202064514,
+    0.07485650479793549
+   ],
+   "pit_flatness": 0.09068876504898071,
+   "seconds": 0.671943187713623
+  },
+  "_file": "eval_official/matern/anp/s4/metrics.json",
+  "_group": "eval_official/matern/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/cnp/s0/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.49976083636283875,
+   "coverage_90": 0.8451849222183228,
+   "crps": 0.1390056014060974,
+   "pit_hist": [
+    0.11543367058038712,
+    0.08219069242477417,
+    0.10188137739896774,
+    0.09693877398967743,
+    0.10028699040412903,
+    0.11208546161651611,
+    0.09534438699483871,
+    0.1015625,
+    0.08027742058038712,
+    0.11399872601032257
+   ],
+   "pit_flatness": 0.04524872452020645,
+   "seconds": 0.6297910213470459
+  },
+  "_file": "eval_official/matern/cnp/s0/metrics.json",
+  "_group": "eval_official/matern/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/cnp/s1/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4984853267669678,
+   "coverage_90": 0.8486925959587097,
+   "crps": 0.1377016007900238,
+   "pit_hist": [
+    0.11599171161651611,
+    0.08378507941961288,
+    0.1043526753783226,
+    0.09279336780309677,
+    0.09606186300516129,
+    0.11758609861135483,
+    0.09566326439380646,
+    0.10020726919174194,
+    0.07987882941961288,
+    0.11367984861135483
+   ],
+   "pit_flatness": 0.051817599684000015,
+   "seconds": 0.5932307243347168
+  },
+  "_file": "eval_official/matern/cnp/s1/metrics.json",
+  "_group": "eval_official/matern/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/cnp/s2/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.48844069242477417,
+   "coverage_90": 0.8467793464660645,
+   "crps": 0.13870851695537567,
+   "pit_hist": [
+    0.1177455335855484,
+    0.0859375,
+    0.10140305757522583,
+    0.09295280277729034,
+    0.09829400479793549,
+    0.1082589253783226,
+    0.09414859861135483,
+    0.10188137739896774,
+    0.08362563699483871,
+    0.11575254797935486
+   ],
+   "pit_flatness": 0.04504144936800003,
+   "seconds": 0.6107227802276611
+  },
+  "_file": "eval_official/matern/cnp/s2/metrics.json",
+  "_group": "eval_official/matern/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/cnp/s3/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4944196343421936,
+   "coverage_90": 0.8474968075752258,
+   "crps": 0.14088204503059387,
+   "pit_hist": [
+    0.11726722121238708,
+    0.08187180757522583,
+    0.10483099520206451,
+    0.09566326439380646,
+    0.09390944242477417,
+    0.1121651753783226,
+    0.09343112260103226,
+    0.1010044664144516,
+    0.08386479318141937,
+    0.11599171161651611
+   ],
+   "pit_flatness": 0.05125956982374191,
+   "seconds": 0.6048052310943604
+  },
+  "_file": "eval_official/matern/cnp/s3/metrics.json",
+  "_group": "eval_official/matern/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/cnp/s4/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.49131059646606445,
+   "coverage_90": 0.8494100570678711,
+   "crps": 0.13818927109241486,
+   "pit_hist": [
+    0.11559311300516129,
+    0.08514030277729034,
+    0.10291773080825806,
+    0.08952487260103226,
+    0.0998883917927742,
+    0.11415816098451614,
+    0.0892857164144516,
+    0.10626594722270966,
+    0.08529974520206451,
+    0.11192601919174194
+   ],
+   "pit_flatness": 0.050860971212387085,
+   "seconds": 0.5963985919952393
+  },
+  "_file": "eval_official/matern/cnp/s4/metrics.json",
+  "_group": "eval_official/matern/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s0/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45735013484954834,
+   "coverage_90": 0.8390465378761292,
+   "crps": 0.08325958251953125,
+   "pit_hist": [
+    0.12308673560619354,
+    0.09175701439380646,
+    0.10259885340929031,
+    0.08832908421754837,
+    0.08952487260103226,
+    0.10259885340929031,
+    0.08458226919174194,
+    0.09749680757522583,
+    0.0881696417927742,
+    0.13185586035251617
+   ],
+   "pit_flatness": 0.06014030799269676,
+   "seconds": 467.07392597198486
+  },
+  "solvers": [
+   {
+    "method": "euler",
+    "steps": 5,
+    "tar_ll": 2.207738298177719,
+    "ll_seconds": 2.818030595779419,
+    "crps": 0.11611044406890869,
+    "coverage_90": 0.5037006735801697,
+    "sample_seconds": 10.977924585342407
+   },
+   {
+    "method": "euler",
+    "steps": 10,
+    "tar_ll": 1.9010497391223908,
+    "ll_seconds": 5.100128173828125,
+    "crps": 0.1131943017244339,
+    "coverage_90": 0.6248629093170166,
+    "sample_seconds": 21.836365938186646
+   },
+   {
+    "method": "euler",
+    "steps": 20,
+    "tar_ll": 1.7361390322446824,
+    "ll_seconds": 10.012080669403076,
+    "crps": 0.11176843196153641,
+    "coverage_90": 0.7331414222717285,
+    "sample_seconds": 43.656657218933105
+   },
+   {
+    "method": "euler",
+    "steps": 50,
+    "tar_ll": 1.555858665704727,
+    "ll_seconds": 24.645551919937134,
+    "crps": 0.11110011488199234,
+    "coverage_90": 0.8182565569877625,
+    "sample_seconds": 108.9899890422821
+   },
+   {
+    "method": "euler",
+    "steps": 100,
+    "tar_ll": 1.4746450811624527,
+    "ll_seconds": 49.123154163360596,
+    "crps": 0.11097626388072968,
+    "coverage_90": 0.8463541865348816,
+    "sample_seconds": 217.07363486289978
+   },
+   {
+    "method": "midpoint",
+    "steps": 5,
+    "tar_ll": 1.5714259147644043,
+    "ll_seconds": 3.4566874504089355,
+    "crps": 0.11163241416215897,
+    "coverage_90": 0.7509594559669495,
+    "sample_seconds": 21.25814914703369
+   },
+   {
+    "method": "midpoint",
+    "steps": 10,
+    "tar_ll": 1.5516829043626785,
+    "ll_seconds": 6.725763320922852,
+    "crps": 0.11112112551927567,
+    "coverage_90": 0.813048243522644,
+    "sample_seconds": 42.43144202232361
+   },
+   {
+    "method": "midpoint",
+    "steps": 20,
+    "tar_ll": 1.4432620108127594,
+    "ll_seconds": 13.258033752441406,
+    "crps": 0.11094129830598831,
+    "coverage_90": 0.8547149300575256,
+    "sample_seconds": 82.10327529907227
+   },
+   {
+    "method": "midpoint",
+    "steps": 50,
+    "tar_ll": 1.391637420654297,
+    "ll_seconds": 32.973864793777466,
+    "crps": 0.1109241172671318,
+    "coverage_90": 0.8686951994895935,
+    "sample_seconds": 212.28298473358154
+   },
+   {
+    "method": "midpoint",
+    "steps": 100,
+    "tar_ll": 1.3890647917985917,
+    "ll_seconds": 70.94120407104492,
+    "crps": 0.11092401295900345,
+    "coverage_90": 0.866639256477356,
+    "sample_seconds": 471.235289812088
+   },
+   {
+    "method": "rk4",
+    "steps": 5,
+    "tar_ll": 1.4301435679197312,
+    "ll_seconds": 10.699560403823853,
+    "crps": 0.11102542281150818,
+    "coverage_90": 0.8891173005104065,
+    "sample_seconds": 47.59046530723572
+   },
+   {
+    "method": "rk4",
+    "steps": 10,
+    "tar_ll": 1.4088721334934236,
+    "ll_seconds": 21.16548752784729,
+    "crps": 0.11092569679021835,
+    "coverage_90": 0.859649121761322,
+    "sample_seconds": 95.72540378570557
+   },
+   {
+    "method": "rk4",
+    "steps": 20,
+    "tar_ll": 1.384844782948494,
+    "ll_seconds": 42.221632957458496,
+    "crps": 0.11093404144048691,
+    "coverage_90": 0.8560855388641357,
+    "sample_seconds": 190.6760060787201
+   },
+   {
+    "method": "rk4",
+    "steps": 50,
+    "tar_ll": 1.3858276158571243,
+    "ll_seconds": 86.75228905677795,
+    "crps": 0.11092548072338104,
+    "coverage_90": 0.8641721606254578,
+    "sample_seconds": 383.34355568885803
+   },
+   {
+    "method": "rk4",
+    "steps": 100,
+    "tar_ll": 1.3862599790096284,
+    "ll_seconds": 182.84007453918457,
+    "crps": 0.11092453449964523,
+    "coverage_90": 0.8651315569877625,
+    "sample_seconds": 944.8987953662872
+   }
+  ],
+  "_file": "eval_official/matern/fnp/s0/metrics.json",
+  "_group": "eval_official/matern/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s0/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2869100868701935,
+   "coverage_90": 0.6027582883834839,
+   "crps": 0.08747432380914688,
+   "pit_hist": [
+    0.24115115404129028,
+    0.07692921161651611,
+    0.07262436300516129,
+    0.052535075694322586,
+    0.05317283049225807,
+    0.061304207891225815,
+    0.056839924305677414,
+    0.06823979318141937,
+    0.06736288219690323,
+    0.24984055757522583
+   ],
+   "pit_flatness": 0.29099172353744507,
+   "seconds": 1076.0926637649536
+  },
+  "_file": "eval_official/matern/fnp/s0/metrics_estocastico.json",
+  "_group": "eval_official/matern/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s1/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.46277105808258057,
+   "coverage_90": 0.8403220772743225,
+   "crps": 0.08325371146202087,
+   "pit_hist": [
+    0.11782525479793549,
+    0.0931919664144516,
+    0.1037946417927742,
+    0.09303252398967743,
+    0.08904655277729034,
+    0.10562819242477417,
+    0.08242984861135483,
+    0.09574298560619354,
+    0.0892857164144516,
+    0.1300223171710968
+   ],
+   "pit_flatness": 0.05727040767669678,
+   "seconds": 458.68269443511963
+  },
+  "_file": "eval_official/matern/fnp/s1/metrics.json",
+  "_group": "eval_official/matern/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s1/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.29001912474632263,
+   "coverage_90": 0.6072225570678711,
+   "crps": 0.0877014547586441,
+   "pit_hist": [
+    0.23971620202064514,
+    0.07828444242477417,
+    0.07230548560619354,
+    0.05500637739896774,
+    0.0558035708963871,
+    0.058673471212387085,
+    0.05564413219690323,
+    0.06784120202064514,
+    0.06935586780309677,
+    0.24736925959587097
+   ],
+   "pit_flatness": 0.2870854437351227,
+   "seconds": 1066.9872105121613
+  },
+  "_file": "eval_official/matern/fnp/s1/metrics_estocastico.json",
+  "_group": "eval_official/matern/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s2/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45894452929496765,
+   "coverage_90": 0.8405612111091614,
+   "crps": 0.08379938453435898,
+   "pit_hist": [
+    0.1216517835855484,
+    0.09382972121238708,
+    0.10467155277729034,
+    0.09239476919174194,
+    0.08641581982374191,
+    0.1037946417927742,
+    0.08266900479793549,
+    0.10036671161651611,
+    0.08665497601032257,
+    0.12755101919174194
+   ],
+   "pit_flatness": 0.058035708963871,
+   "seconds": 490.13902831077576
+  },
+  "_file": "eval_official/matern/fnp/s2/metrics.json",
+  "_group": "eval_official/matern/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s2/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2844387888908386,
+   "coverage_90": 0.6009247303009033,
+   "crps": 0.08817809820175171,
+   "pit_hist": [
+    0.24633291363716125,
+    0.07820472121238708,
+    0.0736607164144516,
+    0.05333226919174194,
+    0.0524553582072258,
+    0.0602678582072258,
+    0.05165816470980644,
+    0.06927614659070969,
+    0.06728316098451614,
+    0.24752870202064514
+   ],
+   "pit_flatness": 0.29386162757873535,
+   "seconds": 1032.140635251999
+  },
+  "_file": "eval_official/matern/fnp/s2/metrics_estocastico.json",
+  "_group": "eval_official/matern/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s3/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.46237245202064514,
+   "coverage_90": 0.8459024429321289,
+   "crps": 0.08372097462415695,
+   "pit_hist": [
+    0.1216517835855484,
+    0.09016262739896774,
+    0.10530930757522583,
+    0.08920599520206451,
+    0.08952487260103226,
+    0.10451211780309677,
+    0.08625637739896774,
+    0.09470663219690323,
+    0.09327168017625809,
+    0.12539859116077423
+   ],
+   "pit_flatness": 0.05687180906534195,
+   "seconds": 514.9338595867157
+  },
+  "_file": "eval_official/matern/fnp/s3/metrics.json",
+  "_group": "eval_official/matern/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s3/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2908163368701935,
+   "coverage_90": 0.6079400777816772,
+   "crps": 0.08790841698646545,
+   "pit_hist": [
+    0.23644770681858063,
+    0.07342155277729034,
+    0.07485650479793549,
+    0.05731824040412903,
+    0.051977042108774185,
+    0.06289859861135483,
+    0.054049745202064514,
+    0.06999362260103226,
+    0.07150828838348389,
+    0.24752870202064514
+   ],
+   "pit_flatness": 0.28397637605667114,
+   "seconds": 1065.551290512085
+  },
+  "_file": "eval_official/matern/fnp/s3/metrics_estocastico.json",
+  "_group": "eval_official/matern/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s4/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4597417116165161,
+   "coverage_90": 0.8447863459587097,
+   "crps": 0.08368445187807083,
+   "pit_hist": [
+    0.11878188699483871,
+    0.0948660746216774,
+    0.10762117058038712,
+    0.08721300959587097,
+    0.08721300959587097,
+    0.10499043017625809,
+    0.08793048560619354,
+    0.09390944242477417,
+    0.08785076439380646,
+    0.12962372601032257
+   ],
+   "pit_flatness": 0.06101721525192261,
+   "seconds": 512.2115218639374
+  },
+  "_file": "eval_official/matern/fnp/s4/metrics.json",
+  "_group": "eval_official/matern/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/fnp/s4/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2918526828289032,
+   "coverage_90": 0.6172671914100647,
+   "crps": 0.088353231549263,
+   "pit_hist": [
+    0.2365274280309677,
+    0.07940050959587097,
+    0.07573341578245163,
+    0.0563616082072258,
+    0.052933674305677414,
+    0.06122449040412903,
+    0.053651146590709686,
+    0.06999362260103226,
+    0.07206632941961288,
+    0.24210777878761292
+   ],
+   "pit_flatness": 0.2786352038383484,
+   "seconds": 816.179285287857
+  },
+  "_file": "eval_official/matern/fnp/s4/metrics_estocastico.json",
+  "_group": "eval_official/matern/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s0/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5015146732330322,
+   "coverage_90": 0.8780293464660645,
+   "crps": 0.08315053582191467,
+   "pit_hist": [
+    0.10132334381341934,
+    0.08657525479793549,
+    0.11336097121238708,
+    0.10028699040412903,
+    0.09733737260103226,
+    0.1138392835855484,
+    0.0920758917927742,
+    0.1015625,
+    0.09008290618658066,
+    0.10355548560619354
+   ],
+   "pit_flatness": 0.03392857313156128,
+   "seconds": 60.44701385498047
+  },
+  "_file": "eval_official/matern/tnpa/s0/metrics.json",
+  "_group": "eval_official/matern/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s1/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.503507673740387,
+   "coverage_90": 0.8761957883834839,
+   "crps": 0.0837918370962143,
+   "pit_hist": [
+    0.09901148080825806,
+    0.08856824040412903,
+    0.11017219722270966,
+    0.09582270681858063,
+    0.10124362260103226,
+    0.11511479318141937,
+    0.09191645681858063,
+    0.10427296161651611,
+    0.08968430757522583,
+    0.10419324040412903
+   ],
+   "pit_flatness": 0.03499681130051613,
+   "seconds": 60.43643832206726
+  },
+  "_file": "eval_official/matern/tnpa/s1/metrics.json",
+  "_group": "eval_official/matern/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s2/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5066964030265808,
+   "coverage_90": 0.8791453838348389,
+   "crps": 0.08319860696792603,
+   "pit_hist": [
+    0.10084502398967743,
+    0.08769132941961288,
+    0.11367984861135483,
+    0.09646046161651611,
+    0.09893175959587097,
+    0.11320152878761292,
+    0.09167729318141937,
+    0.10706313699483871,
+    0.08960459381341934,
+    0.10084502398967743
+   ],
+   "pit_flatness": 0.035634562373161316,
+   "seconds": 60.7860152721405
+  },
+  "_file": "eval_official/matern/tnpa/s2/metrics.json",
+  "_group": "eval_official/matern/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s3/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5015146732330322,
+   "coverage_90": 0.8774713277816772,
+   "crps": 0.08324325084686279,
+   "pit_hist": [
+    0.10132334381341934,
+    0.0887276753783226,
+    0.11280293017625809,
+    0.09669961780309677,
+    0.09725765138864517,
+    0.11862245202064514,
+    0.09072066098451614,
+    0.10116390138864517,
+    0.09159757941961288,
+    0.10108418017625809
+   ],
+   "pit_flatness": 0.03499681130051613,
+   "seconds": 60.78589868545532
+  },
+  "_file": "eval_official/matern/tnpa/s3/metrics.json",
+  "_group": "eval_official/matern/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s4/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5005580186843872,
+   "coverage_90": 0.874043345451355,
+   "crps": 0.08362413197755814,
+   "pit_hist": [
+    0.10188137739896774,
+    0.09016262739896774,
+    0.10778061300516129,
+    0.0998883917927742,
+    0.09781569242477417,
+    0.11806441098451614,
+    0.0892857164144516,
+    0.10188137739896774,
+    0.08952487260103226,
+    0.10371492058038712
+   ],
+   "pit_flatness": 0.03332269936800003,
+   "seconds": 58.15218472480774
+  },
+  "_file": "eval_official/matern/tnpa/s4/metrics.json",
+  "_group": "eval_official/matern/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/anp/s0/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.3533516228199005,
+   "coverage_90": 0.7349713444709778,
+   "crps": 0.31882938742637634,
+   "pit_hist": [
+    0.1804627925157547,
+    0.08808444440364838,
+    0.08885972946882248,
+    0.06810591369867325,
+    0.06387165933847427,
+    0.07245944440364838,
+    0.06828483194112778,
+    0.08921755850315094,
+    0.09100668132305145,
+    0.18964694440364838
+   ],
+   "pit_flatness": 0.17010973393917084,
+   "seconds": 0.9593944549560547
+  },
+  "_file": "eval_official/periodic/anp/s0/metrics.json",
+  "_group": "eval_official/periodic/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/anp/s1/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.3499522805213928,
+   "coverage_90": 0.7338382601737976,
+   "crps": 0.31869280338287354,
+   "pit_hist": [
+    0.18195372819900513,
+    0.09225906431674957,
+    0.08552003651857376,
+    0.0682251900434494,
+    0.06333492696285248,
+    0.07210162281990051,
+    0.0666746199131012,
+    0.09154341369867325,
+    0.08641459792852402,
+    0.19197280704975128
+   ],
+   "pit_flatness": 0.17392653226852417,
+   "seconds": 0.9821624755859375
+  },
+  "_file": "eval_official/periodic/anp/s1/metrics.json",
+  "_group": "eval_official/periodic/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/anp/s2/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.3535901606082916,
+   "coverage_90": 0.7369394302368164,
+   "crps": 0.32004663348197937,
+   "pit_hist": [
+    0.17885257303714752,
+    0.09202051162719727,
+    0.08480438590049744,
+    0.0710877850651741,
+    0.0653625950217247,
+    0.07204198837280273,
+    0.06673425436019897,
+    0.09058921784162521,
+    0.09142414480447769,
+    0.18708254396915436
+   ],
+   "pit_flatness": 0.16593512892723083,
+   "seconds": 1.0703392028808594
+  },
+  "_file": "eval_official/periodic/anp/s2/metrics.json",
+  "_group": "eval_official/periodic/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/anp/s3/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.3711235821247101,
+   "coverage_90": 0.7537571787834167,
+   "crps": 0.3159593939781189,
+   "pit_hist": [
+    0.17205391824245453,
+    0.08981393277645111,
+    0.08605677634477615,
+    0.07198234647512436,
+    0.06715171784162521,
+    0.0796755701303482,
+    0.07001431286334991,
+    0.09428673982620239,
+    0.09070849418640137,
+    0.17825619876384735
+   ],
+   "pit_flatness": 0.15031012892723083,
+   "seconds": 0.89457106590271
+  },
+  "_file": "eval_official/periodic/anp/s3/metrics.json",
+  "_group": "eval_official/periodic/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/anp/s4/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.34023138880729675,
+   "coverage_90": 0.7254294157028198,
+   "crps": 0.32280364632606506,
+   "pit_hist": [
+    0.18761926889419556,
+    0.08885972946882248,
+    0.08569894731044769,
+    0.06542222946882248,
+    0.06309637427330017,
+    0.06906011700630188,
+    0.06625715643167496,
+    0.08778625726699829,
+    0.08951574563980103,
+    0.19668416678905487
+   ],
+   "pit_flatness": 0.184303417801857,
+   "seconds": 0.8123173713684082
+  },
+  "_file": "eval_official/periodic/anp/s4/metrics.json",
+  "_group": "eval_official/periodic/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/cnp/s0/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45407921075820923,
+   "coverage_90": 0.8476264476776123,
+   "crps": 0.29439520835876465,
+   "pit_hist": [
+    0.12034828215837479,
+    0.09225906431674957,
+    0.1059756651520729,
+    0.08832299709320068,
+    0.08390983194112778,
+    0.09601622074842453,
+    0.08736880123615265,
+    0.10555820912122726,
+    0.09345181286334991,
+    0.1267891228199005
+   ],
+   "pit_flatness": 0.05867127701640129,
+   "seconds": 0.465451717376709
+  },
+  "_file": "eval_official/periodic/cnp/s0/metrics.json",
+  "_group": "eval_official/periodic/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/cnp/s1/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45276716351509094,
+   "coverage_90": 0.8440482020378113,
+   "crps": 0.29462894797325134,
+   "pit_hist": [
+    0.12189885228872299,
+    0.09136450290679932,
+    0.1057371199131012,
+    0.08784589916467667,
+    0.08373091369867325,
+    0.09446565061807632,
+    0.08641459792852402,
+    0.10740696638822556,
+    0.0953005701303482,
+    0.12583492696285248
+   ],
+   "pit_flatness": 0.06087786704301834,
+   "seconds": 0.6606745719909668
+  },
+  "_file": "eval_official/periodic/cnp/s1/metrics.json",
+  "_group": "eval_official/periodic/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/cnp/s2/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45169371366500854,
+   "coverage_90": 0.8466125726699829,
+   "crps": 0.2943303883075714,
+   "pit_hist": [
+    0.1221374049782753,
+    0.09196087718009949,
+    0.10704914480447769,
+    0.08498330414295197,
+    0.08599713444709778,
+    0.09500238299369812,
+    0.08683206140995026,
+    0.10549856722354889,
+    0.09357108920812607,
+    0.12696804106235504
+   ],
+   "pit_flatness": 0.06165315583348274,
+   "seconds": 0.6719834804534912
+  },
+  "_file": "eval_official/periodic/cnp/s2/metrics.json",
+  "_group": "eval_official/periodic/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/cnp/s3/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.45097804069519043,
+   "coverage_90": 0.845300555229187,
+   "crps": 0.29454123973846436,
+   "pit_hist": [
+    0.12100429087877274,
+    0.09231869876384735,
+    0.10591603070497513,
+    0.08659350872039795,
+    0.08498330414295197,
+    0.09565839916467667,
+    0.08647423982620239,
+    0.10758587718009949,
+    0.09255725145339966,
+    0.12690839171409607
+   ],
+   "pit_flatness": 0.06141459569334984,
+   "seconds": 0.6874575614929199
+  },
+  "_file": "eval_official/periodic/cnp/s3/metrics.json",
+  "_group": "eval_official/periodic/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/cnp/s4/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4499642252922058,
+   "coverage_90": 0.8421397805213928,
+   "crps": 0.2949795424938202,
+   "pit_hist": [
+    0.12201812863349915,
+    0.09190124273300171,
+    0.10615458339452744,
+    0.08587786555290222,
+    0.08194179087877274,
+    0.09762643277645111,
+    0.08498330414295197,
+    0.10788406431674957,
+    0.09321326017379761,
+    0.1283993273973465
+   ],
+   "pit_flatness": 0.06445610523223877,
+   "seconds": 0.6796581745147705
+  },
+  "_file": "eval_official/periodic/cnp/s4/metrics.json",
+  "_group": "eval_official/periodic/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s0/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4955868422985077,
+   "coverage_90": 0.8760734796524048,
+   "crps": 0.2869873046875,
+   "pit_hist": [
+    0.10370944440364838,
+    0.09052958339452744,
+    0.10955391079187393,
+    0.09518130123615265,
+    0.09643368422985077,
+    0.1067509576678276,
+    0.08999284356832504,
+    0.11420562863349915,
+    0.08891937136650085,
+    0.10472328215837479
+   ],
+   "pit_flatness": 0.03894321992993355,
+   "seconds": 420.01105761528015
+  },
+  "solvers": [
+   {
+    "method": "euler",
+    "steps": 5,
+    "tar_ll": -0.40086843222379687,
+    "ll_seconds": 2.8077073097229004,
+    "crps": 0.27629488706588745,
+    "coverage_90": 0.69140625,
+    "sample_seconds": 11.45285439491272
+   },
+   {
+    "method": "euler",
+    "steps": 10,
+    "tar_ll": -0.4189761057496071,
+    "ll_seconds": 5.178486108779907,
+    "crps": 0.27114444971084595,
+    "coverage_90": 0.7935267686843872,
+    "sample_seconds": 22.709729194641113
+   },
+   {
+    "method": "euler",
+    "steps": 20,
+    "tar_ll": -0.44924389868974685,
+    "ll_seconds": 10.113640069961548,
+    "crps": 0.26993662118911743,
+    "coverage_90": 0.8423548936843872,
+    "sample_seconds": 45.34202170372009
+   },
+   {
+    "method": "euler",
+    "steps": 50,
+    "tar_ll": -0.4743416592478752,
+    "ll_seconds": 24.68234920501709,
+    "crps": 0.269707590341568,
+    "coverage_90": 0.8685826063156128,
+    "sample_seconds": 111.86925077438354
+   },
+   {
+    "method": "euler",
+    "steps": 100,
+    "tar_ll": -0.48326097428798676,
+    "ll_seconds": 48.969680309295654,
+    "crps": 0.2697238028049469,
+    "coverage_90": 0.8766741156578064,
+    "sample_seconds": 223.81265354156494
+   },
+   {
+    "method": "midpoint",
+    "steps": 5,
+    "tar_ll": -0.45897656083106997,
+    "ll_seconds": 3.505661964416504,
+    "crps": 0.2698027491569519,
+    "coverage_90": 0.8786272406578064,
+    "sample_seconds": 22.580920934677124
+   },
+   {
+    "method": "midpoint",
+    "steps": 10,
+    "tar_ll": -0.48645726442337034,
+    "ll_seconds": 6.763724327087402,
+    "crps": 0.2697896957397461,
+    "coverage_90": 0.8835100531578064,
+    "sample_seconds": 44.65956687927246
+   },
+   {
+    "method": "midpoint",
+    "steps": 20,
+    "tar_ll": -0.4915045812726021,
+    "ll_seconds": 7.831390380859375,
+    "crps": 0.26978209614753723,
+    "coverage_90": 0.8835100531578064,
+    "sample_seconds": 87.75153088569641
+   },
+   {
+    "method": "midpoint",
+    "steps": 50,
+    "tar_ll": -0.4927785933017731,
+    "ll_seconds": 35.77368426322937,
+    "crps": 0.26977914571762085,
+    "coverage_90": 0.8829520344734192,
+    "sample_seconds": 241.94866943359375
+   },
+   {
+    "method": "midpoint",
+    "steps": 100,
+    "tar_ll": -0.49286274909973143,
+    "ll_seconds": 71.69694781303406,
+    "crps": 0.2697790563106537,
+    "coverage_90": 0.8829520344734192,
+    "sample_seconds": 485.3321211338043
+   },
+   {
+    "method": "rk4",
+    "steps": 5,
+    "tar_ll": -0.4902697458863258,
+    "ll_seconds": 8.175186395645142,
+    "crps": 0.2697754204273224,
+    "coverage_90": 0.8765345811843872,
+    "sample_seconds": 20.616242170333862
+   },
+   {
+    "method": "rk4",
+    "steps": 10,
+    "tar_ll": -0.49293420314788816,
+    "ll_seconds": 10.365449905395508,
+    "crps": 0.26977774500846863,
+    "coverage_90": 0.8803013563156128,
+    "sample_seconds": 85.19079685211182
+   },
+   {
+    "method": "rk4",
+    "steps": 20,
+    "tar_ll": -0.4929803073406219,
+    "ll_seconds": 39.07959818840027,
+    "crps": 0.2697778344154358,
+    "coverage_90": 0.8821149468421936,
+    "sample_seconds": 183.00483632087708
+   },
+   {
+    "method": "rk4",
+    "steps": 50,
+    "tar_ll": -0.4930986687541008,
+    "ll_seconds": 98.07267904281616,
+    "crps": 0.2697782814502716,
+    "coverage_90": 0.8829520344734192,
+    "sample_seconds": 400.46622252464294
+   },
+   {
+    "method": "rk4",
+    "steps": 100,
+    "tar_ll": -0.4930061861872673,
+    "ll_seconds": 208.39736819267273,
+    "crps": 0.26977866888046265,
+    "coverage_90": 0.8829520344734192,
+    "sample_seconds": 870.8453199863434
+   }
+  ],
+  "_file": "eval_official/periodic/fnp/s0/metrics.json",
+  "_group": "eval_official/periodic/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s0/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4099475145339966,
+   "coverage_90": 0.795324444770813,
+   "crps": 0.2889314889907837,
+   "pit_hist": [
+    0.1505248099565506,
+    0.09196087718009949,
+    0.09416746348142624,
+    0.07997375726699829,
+    0.07830391079187393,
+    0.0846254751086235,
+    0.07937738299369812,
+    0.09744752198457718,
+    0.09142414480447769,
+    0.15219466388225555
+   ],
+   "pit_flatness": 0.10271947085857391,
+   "seconds": 921.1072449684143
+  },
+  "_file": "eval_official/periodic/fnp/s0/metrics_estocastico.json",
+  "_group": "eval_official/periodic/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s1/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4958253800868988,
+   "coverage_90": 0.8806655406951904,
+   "crps": 0.2873728573322296,
+   "pit_hist": [
+    0.10144322365522385,
+    0.09136450290679932,
+    0.1119990423321724,
+    0.09398855268955231,
+    0.09703005850315094,
+    0.10537929087877274,
+    0.09070849418640137,
+    0.11515983194112778,
+    0.09082777053117752,
+    0.10209923982620239
+   ],
+   "pit_flatness": 0.03608062490820885,
+   "seconds": 420.9895257949829
+  },
+  "_file": "eval_official/periodic/fnp/s1/metrics.json",
+  "_group": "eval_official/periodic/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s1/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.40738311409950256,
+   "coverage_90": 0.8029580116271973,
+   "crps": 0.2886798679828644,
+   "pit_hist": [
+    0.15004770457744598,
+    0.09392891079187393,
+    0.09750715643167496,
+    0.08015266805887222,
+    0.07895992696285248,
+    0.08277671784162521,
+    0.07711116224527359,
+    0.10102576017379761,
+    0.09494274854660034,
+    0.14354723691940308
+   ],
+   "pit_flatness": 0.0946207046508789,
+   "seconds": 909.9591419696808
+  },
+  "_file": "eval_official/periodic/fnp/s1/metrics_estocastico.json",
+  "_group": "eval_official/periodic/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s2/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5014312863349915,
+   "coverage_90": 0.8810234069824219,
+   "crps": 0.2872922718524933,
+   "pit_hist": [
+    0.10072757303714752,
+    0.09005247801542282,
+    0.11193940788507462,
+    0.09655296057462692,
+    0.09804389625787735,
+    0.10794369876384735,
+    0.09100668132305145,
+    0.11390744149684906,
+    0.08820372074842453,
+    0.10162213444709778
+   ],
+   "pit_flatness": 0.036140259355306625,
+   "seconds": 442.9916958808899
+  },
+  "_file": "eval_official/periodic/fnp/s2/metrics.json",
+  "_group": "eval_official/periodic/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s2/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4091126024723053,
+   "coverage_90": 0.8020634651184082,
+   "crps": 0.28902125358581543,
+   "pit_hist": [
+    0.14951097965240479,
+    0.09416746348142624,
+    0.0971493348479271,
+    0.07985448837280273,
+    0.08092796057462692,
+    0.08396946638822556,
+    0.0760376900434494,
+    0.09768606722354889,
+    0.09339217841625214,
+    0.14730438590049744
+   ],
+   "pit_flatness": 0.09681536257266998,
+   "seconds": 939.9750592708588
+  },
+  "_file": "eval_official/periodic/fnp/s2/metrics_estocastico.json",
+  "_group": "eval_official/periodic/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s3/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5003578066825867,
+   "coverage_90": 0.8820372223854065,
+   "crps": 0.2870997190475464,
+   "pit_hist": [
+    0.10215887427330017,
+    0.09160305559635162,
+    0.11319179087877274,
+    0.09285543859004974,
+    0.09774570912122726,
+    0.1078244298696518,
+    0.09339217841625214,
+    0.11295324563980103,
+    0.08772662281990051,
+    0.10054866224527359
+   ],
+   "pit_flatness": 0.03667699918150902,
+   "seconds": 460.5226209163666
+  },
+  "_file": "eval_official/periodic/fnp/s3/metrics.json",
+  "_group": "eval_official/periodic/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s3/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4126908481121063,
+   "coverage_90": 0.8025405406951904,
+   "crps": 0.2887933552265167,
+   "pit_hist": [
+    0.15296994149684906,
+    0.09327290207147598,
+    0.09601622074842453,
+    0.07717080414295197,
+    0.08218034356832504,
+    0.08522184938192368,
+    0.07895992696285248,
+    0.0966125950217247,
+    0.09279580414295197,
+    0.1447996199131012
+   ],
+   "pit_flatness": 0.09776956588029861,
+   "seconds": 951.1071515083313
+  },
+  "_file": "eval_official/periodic/fnp/s3/metrics_estocastico.json",
+  "_group": "eval_official/periodic/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s4/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.49803197383880615,
+   "coverage_90": 0.8786975145339966,
+   "crps": 0.28704577684402466,
+   "pit_hist": [
+    0.10186068713665009,
+    0.08814408630132675,
+    0.10722805559635162,
+    0.09291507303714752,
+    0.09840171784162521,
+    0.10973282158374786,
+    0.09154341369867325,
+    0.11677003651857376,
+    0.08993320912122726,
+    0.10347089916467667
+   ],
+   "pit_flatness": 0.0390625,
+   "seconds": 472.59664034843445
+  },
+  "_file": "eval_official/periodic/fnp/s4/metrics.json",
+  "_group": "eval_official/periodic/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/fnp/s4/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4125119149684906,
+   "coverage_90": 0.8010495901107788,
+   "crps": 0.2886435091495514,
+   "pit_hist": [
+    0.14670801162719727,
+    0.08951574563980103,
+    0.0929747149348259,
+    0.07818463444709778,
+    0.08039122074842453,
+    0.08677242696285248,
+    0.07949665933847427,
+    0.09935591369867325,
+    0.09822280704975128,
+    0.14837786555290222
+   ],
+   "pit_flatness": 0.09508587419986725,
+   "seconds": 471.27464485168457
+  },
+  "_file": "eval_official/periodic/fnp/s4/metrics_estocastico.json",
+  "_group": "eval_official/periodic/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/ndp/s0/ckpt.tar",
+  "model": "official:ndp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.8100548386573792,
+   "coverage_90": 0.9835400581359863,
+   "crps": 0.37910470366477966,
+   "pit_hist": [
+    0.019978530704975128,
+    0.03602099418640137,
+    0.08915791660547256,
+    0.14676764607429504,
+    0.21385973691940308,
+    0.22781488299369812,
+    0.1267891228199005,
+    0.0851622149348259,
+    0.03494751825928688,
+    0.01950143091380596
+   ],
+   "pit_flatness": 0.31523141264915466,
+   "seconds": 811.2490241527557
+  },
+  "_file": "eval_official/periodic/ndp/s0/metrics.json",
+  "_group": "eval_official/periodic/ndp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/ndp/s2/ckpt.tar",
+  "model": "official:ndp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.8250834941864014,
+   "coverage_90": 0.9828840494155884,
+   "crps": 0.3846144378185272,
+   "pit_hist": [
+    0.021469466388225555,
+    0.034231871366500854,
+    0.07663406431674957,
+    0.13549618422985077,
+    0.22375954687595367,
+    0.24904580414295197,
+    0.13012881577014923,
+    0.07884065061807632,
+    0.03232347220182419,
+    0.01807013340294361
+   ],
+   "pit_flatness": 0.33843037486076355,
+   "seconds": 1372.3179585933685
+  },
+  "_file": "eval_official/periodic/ndp/s2/metrics.json",
+  "_group": "eval_official/periodic/ndp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/tnpa/s0/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.47405773401260376,
+   "coverage_90": 0.878578245639801,
+   "crps": 0.2885318696498871,
+   "pit_hist": [
+    0.10687022656202316,
+    0.09887881577014923,
+    0.1067509576678276,
+    0.09369036555290222,
+    0.08885972946882248,
+    0.10406727343797684,
+    0.09041030704975128,
+    0.10645277053117752,
+    0.09547948837280273,
+    0.10854007303714752
+   ],
+   "pit_flatness": 0.03268129751086235,
+   "seconds": 109.20438027381897
+  },
+  "_file": "eval_official/periodic/tnpa/s0/metrics.json",
+  "_group": "eval_official/periodic/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/tnpa/s1/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4778148829936981,
+   "coverage_90": 0.8804866671562195,
+   "crps": 0.28867387771606445,
+   "pit_hist": [
+    0.10722805559635162,
+    0.09613549709320068,
+    0.10907681286334991,
+    0.09327290207147598,
+    0.08939646929502487,
+    0.10466364771127701,
+    0.09029103070497513,
+    0.10740696638822556,
+    0.09482347220182419,
+    0.10770515352487564
+   ],
+   "pit_flatness": 0.036080632358789444,
+   "seconds": 109.18481183052063
+  },
+  "_file": "eval_official/periodic/tnpa/s1/metrics.json",
+  "_group": "eval_official/periodic/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/tnpa/s2/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4747733771800995,
+   "coverage_90": 0.877683699131012,
+   "crps": 0.28871646523475647,
+   "pit_hist": [
+    0.10788406431674957,
+    0.09697041660547256,
+    0.10710877925157547,
+    0.09184160083532333,
+    0.09058921784162521,
+    0.10430581867694855,
+    0.08981393277645111,
+    0.10746660083532333,
+    0.09464456140995026,
+    0.109375
+   ],
+   "pit_flatness": 0.03614026680588722,
+   "seconds": 115.04924416542053
+  },
+  "_file": "eval_official/periodic/tnpa/s2/metrics.json",
+  "_group": "eval_official/periodic/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/tnpa/s3/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.47513121366500854,
+   "coverage_90": 0.8773854970932007,
+   "crps": 0.28880125284194946,
+   "pit_hist": [
+    0.10681059211492538,
+    0.09840171784162521,
+    0.10615458339452744,
+    0.09273616224527359,
+    0.0895753800868988,
+    0.10406727343797684,
+    0.09106631577014923,
+    0.10698950290679932,
+    0.09434637427330017,
+    0.10985209792852402
+   ],
+   "pit_flatness": 0.03387404978275299,
+   "seconds": 115.05102252960205
+  },
+  "_file": "eval_official/periodic/tnpa/s3/metrics.json",
+  "_group": "eval_official/periodic/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/periodic/tnpa/s4/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/periodic-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4768606722354889,
+   "coverage_90": 0.8783993124961853,
+   "crps": 0.28875645995140076,
+   "pit_hist": [
+    0.10770515352487564,
+    0.09899809211492538,
+    0.10764551162719727,
+    0.09225906431674957,
+    0.08897900581359863,
+    0.10567747801542282,
+    0.0888000950217247,
+    0.10848043859004974,
+    0.09398855268955231,
+    0.10746660083532333
+   ],
+   "pit_flatness": 0.0369751863181591,
+   "seconds": 109.39363169670105
+  },
+  "_file": "eval_official/periodic/tnpa/s4/metrics.json",
+  "_group": "eval_official/periodic/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/anp/s0/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.6307398080825806,
+   "coverage_90": 0.9307238459587097,
+   "crps": 0.07243354618549347,
+   "pit_hist": [
+    0.06273915618658066,
+    0.06847895681858063,
+    0.10754145681858063,
+    0.12260841578245163,
+    0.13233418762683868,
+    0.1529017835855484,
+    0.1138392835855484,
+    0.11057078838348389,
+    0.07047194242477417,
+    0.058514028787612915
+   ],
+   "pit_flatness": 0.1397959142923355,
+   "seconds": 0.6746790409088135
+  },
+  "_file": "eval_official/rbf/anp/s0/metrics.json",
+  "_group": "eval_official/rbf/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/anp/s1/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.6267538070678711,
+   "coverage_90": 0.9298469424247742,
+   "crps": 0.0730772539973259,
+   "pit_hist": [
+    0.06353635340929031,
+    0.06855867058038712,
+    0.11224489659070969,
+    0.12149234861135483,
+    0.12898597121238708,
+    0.14915497601032257,
+    0.11415816098451614,
+    0.11096938699483871,
+    0.0686383917927742,
+    0.062260840088129044
+   ],
+   "pit_flatness": 0.1370057463645935,
+   "seconds": 0.6878941059112549
+  },
+  "_file": "eval_official/rbf/anp/s1/metrics.json",
+  "_group": "eval_official/rbf/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/anp/s2/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.6295440196990967,
+   "coverage_90": 0.9319993853569031,
+   "crps": 0.07170620560646057,
+   "pit_hist": [
+    0.061862245202064514,
+    0.07079081982374191,
+    0.10809949040412903,
+    0.1227678582072258,
+    0.1311383992433548,
+    0.14995217323303223,
+    0.1149553582072258,
+    0.10865752398967743,
+    0.07501594722270966,
+    0.05676020309329033
+   ],
+   "pit_flatness": 0.13557079434394836,
+   "seconds": 0.6385197639465332
+  },
+  "_file": "eval_official/rbf/anp/s2/metrics.json",
+  "_group": "eval_official/rbf/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/anp/s3/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.6297034621238708,
+   "coverage_90": 0.9313616156578064,
+   "crps": 0.0718853622674942,
+   "pit_hist": [
+    0.06106505170464516,
+    0.0680803582072258,
+    0.11120854318141937,
+    0.1171875,
+    0.13600127398967743,
+    0.1489955335855484,
+    0.11591199040412903,
+    0.11232461780309677,
+    0.07134885340929031,
+    0.05787627398967743
+   ],
+   "pit_flatness": 0.14162945747375488,
+   "seconds": 0.6709563732147217
+  },
+  "_file": "eval_official/rbf/anp/s3/metrics.json",
+  "_group": "eval_official/rbf/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/anp/s4/ckpt.tar",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.6269132494926453,
+   "coverage_90": 0.9331154227256775,
+   "crps": 0.07251083850860596,
+   "pit_hist": [
+    0.061862245202064514,
+    0.06839923560619354,
+    0.11288265138864517,
+    0.11910076439380646,
+    0.13345025479793549,
+    0.1496332883834839,
+    0.11599171161651611,
+    0.10897640138864517,
+    0.07095025479793549,
+    0.05875318869948387
+   ],
+   "pit_flatness": 0.14003507792949677,
+   "seconds": 0.7645328044891357
+  },
+  "_file": "eval_official/rbf/anp/s4/metrics.json",
+  "_group": "eval_official/rbf/anp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s0/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.504862904548645,
+   "coverage_90": 0.8571428656578064,
+   "crps": 0.12214305251836777,
+   "pit_hist": [
+    0.11033163219690323,
+    0.08330675959587097,
+    0.10722257941961288,
+    0.09534438699483871,
+    0.09980867058038712,
+    0.11846300959587097,
+    0.0943080335855484,
+    0.10180165618658066,
+    0.08107461780309677,
+    0.10833864659070969
+   ],
+   "pit_flatness": 0.04615752771496773,
+   "seconds": 0.6491236686706543
+  },
+  "_file": "eval_official/rbf/cnp/s0/metrics.json",
+  "_group": "eval_official/rbf/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s1/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5084502696990967,
+   "coverage_90": 0.8594546914100647,
+   "crps": 0.11917422711849213,
+   "pit_hist": [
+    0.10738201439380646,
+    0.08235012739896774,
+    0.10204081982374191,
+    0.0943080335855484,
+    0.09869260340929031,
+    0.11814413219690323,
+    0.09558354318141937,
+    0.10929527878761292,
+    0.08075574040412903,
+    0.11144770681858063
+   ],
+   "pit_flatness": 0.04830995202064514,
+   "seconds": 0.6332201957702637
+  },
+  "_file": "eval_official/rbf/cnp/s1/metrics.json",
+  "_group": "eval_official/rbf/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s2/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5151466727256775,
+   "coverage_90": 0.8557078838348389,
+   "crps": 0.1229064092040062,
+   "pit_hist": [
+    0.1099330335855484,
+    0.07908163219690323,
+    0.10961415618658066,
+    0.09749680757522583,
+    0.10036671161651611,
+    0.11933992058038712,
+    0.09382972121238708,
+    0.10243941098451614,
+    0.08585777878761292,
+    0.10204081982374191
+   ],
+   "pit_flatness": 0.04373405501246452,
+   "seconds": 0.5855591297149658
+  },
+  "_file": "eval_official/rbf/cnp/s2/metrics.json",
+  "_group": "eval_official/rbf/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s3/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5130739808082581,
+   "coverage_90": 0.8531568646430969,
+   "crps": 0.1211070790886879,
+   "pit_hist": [
+    0.11184629797935486,
+    0.08203125,
+    0.10307716578245163,
+    0.09646046161651611,
+    0.10036671161651611,
+    0.11798469722270966,
+    0.10204081982374191,
+    0.10347576439380646,
+    0.07541453838348389,
+    0.10730229318141937
+   ],
+   "pit_flatness": 0.04609374701976776,
+   "seconds": 0.419374942779541
+  },
+  "_file": "eval_official/rbf/cnp/s3/metrics.json",
+  "_group": "eval_official/rbf/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/cnp/s4/ckpt.tar",
+  "model": "official:cnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5114796161651611,
+   "coverage_90": 0.8605707883834839,
+   "crps": 0.11918217688798904,
+   "pit_hist": [
+    0.10666453838348389,
+    0.08219069242477417,
+    0.10578762739896774,
+    0.09438775479793549,
+    0.10291773080825806,
+    0.11670918017625809,
+    0.09502550959587097,
+    0.10809949040412903,
+    0.08466199040412903,
+    0.10355548560619354
+   ],
+   "pit_flatness": 0.043734051287174225,
+   "seconds": 0.4160463809967041
+  },
+  "_file": "eval_official/rbf/cnp/s4/metrics.json",
+  "_group": "eval_official/rbf/cnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s0/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4554368555545807,
+   "coverage_90": 0.8345822691917419,
+   "crps": 0.06371551752090454,
+   "pit_hist": [
+    0.12101402878761292,
+    0.09127870202064514,
+    0.10674425959587097,
+    0.08474171161651611,
+    0.08713328838348389,
+    0.09996811300516129,
+    0.08968430757522583,
+    0.10068558901548386,
+    0.08801020681858063,
+    0.13073979318141937
+   ],
+   "pit_flatness": 0.059183672070503235,
+   "seconds": 502.15892910957336
+  },
+  "solvers": [
+   {
+    "method": "euler",
+    "steps": 5,
+    "tar_ll": 2.8699018120765687,
+    "ll_seconds": 2.962491750717163,
+    "crps": 0.09420815110206604,
+    "coverage_90": 0.484649121761322,
+    "sample_seconds": 12.11063551902771
+   },
+   {
+    "method": "euler",
+    "steps": 10,
+    "tar_ll": 2.417407697439194,
+    "ll_seconds": 5.5689332485198975,
+    "crps": 0.09238341450691223,
+    "coverage_90": 0.539610743522644,
+    "sample_seconds": 23.982329607009888
+   },
+   {
+    "method": "euler",
+    "steps": 20,
+    "tar_ll": 2.2139752388000487,
+    "ll_seconds": 10.689263343811035,
+    "crps": 0.09075397998094559,
+    "coverage_90": 0.6938048005104065,
+    "sample_seconds": 47.886818647384644
+   },
+   {
+    "method": "euler",
+    "steps": 50,
+    "tar_ll": 1.9939940810203551,
+    "ll_seconds": 26.37439250946045,
+    "crps": 0.0899868905544281,
+    "coverage_90": 0.8134594559669495,
+    "sample_seconds": 119.9182665348053
+   },
+   {
+    "method": "euler",
+    "steps": 100,
+    "tar_ll": 1.893521112203598,
+    "ll_seconds": 52.7742440700531,
+    "crps": 0.08988422900438309,
+    "coverage_90": 0.8408716917037964,
+    "sample_seconds": 239.67859840393066
+   },
+   {
+    "method": "midpoint",
+    "steps": 5,
+    "tar_ll": 1.9466615557670592,
+    "ll_seconds": 3.9244565963745117,
+    "crps": 0.09123911708593369,
+    "coverage_90": 0.6366502046585083,
+    "sample_seconds": 24.101475715637207
+   },
+   {
+    "method": "midpoint",
+    "steps": 10,
+    "tar_ll": 1.9897708475589753,
+    "ll_seconds": 7.430490970611572,
+    "crps": 0.08996938169002533,
+    "coverage_90": 0.8167489171028137,
+    "sample_seconds": 24.226492404937744
+   },
+   {
+    "method": "midpoint",
+    "steps": 20,
+    "tar_ll": 1.856104052066803,
+    "ll_seconds": 6.765302896499634,
+    "crps": 0.0898517593741417,
+    "coverage_90": 0.8678728342056274,
+    "sample_seconds": 52.21698522567749
+   },
+   {
+    "method": "midpoint",
+    "steps": 50,
+    "tar_ll": 1.7884434461593628,
+    "ll_seconds": 33.729209184646606,
+    "crps": 0.08984407037496567,
+    "coverage_90": 0.8695175647735596,
+    "sample_seconds": 219.97873497009277
+   },
+   {
+    "method": "midpoint",
+    "steps": 100,
+    "tar_ll": 1.7796389281749725,
+    "ll_seconds": 67.47454524040222,
+    "crps": 0.08984961360692978,
+    "coverage_90": 0.8686951994895935,
+    "sample_seconds": 424.4380178451538
+   },
+   {
+    "method": "rk4",
+    "steps": 5,
+    "tar_ll": 1.8211279273033143,
+    "ll_seconds": 10.11162519454956,
+    "crps": 0.09001906961202621,
+    "coverage_90": 0.9033716917037964,
+    "sample_seconds": 43.77245378494263
+   },
+   {
+    "method": "rk4",
+    "steps": 10,
+    "tar_ll": 1.80906640291214,
+    "ll_seconds": 19.878093719482422,
+    "crps": 0.08983888477087021,
+    "coverage_90": 0.866639256477356,
+    "sample_seconds": 88.63123273849487
+   },
+   {
+    "method": "rk4",
+    "steps": 20,
+    "tar_ll": 1.7793531715869904,
+    "ll_seconds": 39.48791694641113,
+    "crps": 0.0898517295718193,
+    "coverage_90": 0.8603344559669495,
+    "sample_seconds": 170.35257053375244
+   },
+   {
+    "method": "rk4",
+    "steps": 50,
+    "tar_ll": 1.7762766003608703,
+    "ll_seconds": 97.18303561210632,
+    "crps": 0.08984791487455368,
+    "coverage_90": 0.866913378238678,
+    "sample_seconds": 427.42884826660156
+   },
+   {
+    "method": "rk4",
+    "steps": 100,
+    "tar_ll": 1.7761390388011933,
+    "ll_seconds": 198.18719053268433,
+    "crps": 0.08984962105751038,
+    "coverage_90": 0.8675987124443054,
+    "sample_seconds": 853.8128590583801
+   }
+  ],
+  "_file": "eval_official/rbf/fnp/s0/metrics.json",
+  "_group": "eval_official/rbf/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s0/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.29161351919174194,
+   "coverage_90": 0.6164700388908386,
+   "crps": 0.06729889661073685,
+   "pit_hist": [
+    0.22863520681858063,
+    0.08330675959587097,
+    0.06895726919174194,
+    0.0563616082072258,
+    0.051977042108774185,
+    0.06457270681858063,
+    0.052933674305677414,
+    0.07493622601032257,
+    0.07485650479793549,
+    0.24346300959587097
+   ],
+   "pit_flatness": 0.27209821343421936,
+   "seconds": 1086.3761582374573
+  },
+  "_file": "eval_official/rbf/fnp/s0/metrics_estocastico.json",
+  "_group": "eval_official/rbf/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s1/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.44722577929496765,
+   "coverage_90": 0.8305963277816772,
+   "crps": 0.06405732035636902,
+   "pit_hist": [
+    0.12683354318141937,
+    0.09159757941961288,
+    0.10371492058038712,
+    0.08227040618658066,
+    0.08266900479793549,
+    0.10148277878761292,
+    0.0887276753783226,
+    0.09980867058038712,
+    0.08824936300516129,
+    0.13464604318141937
+   ],
+   "pit_flatness": 0.06667729467153549,
+   "seconds": 461.9612648487091
+  },
+  "solvers": [
+   {
+    "method": "euler",
+    "steps": 5,
+    "tar_ll": 3.0319996953010557,
+    "ll_seconds": 2.8237318992614746,
+    "crps": 0.09462876617908478,
+    "coverage_90": 0.4853344261646271,
+    "sample_seconds": 11.012222528457642
+   },
+   {
+    "method": "euler",
+    "steps": 10,
+    "tar_ll": 2.4777921795845033,
+    "ll_seconds": 5.211852073669434,
+    "crps": 0.09246749430894852,
+    "coverage_90": 0.5689418911933899,
+    "sample_seconds": 21.879257440567017
+   },
+   {
+    "method": "euler",
+    "steps": 20,
+    "tar_ll": 2.2384942412376403,
+    "ll_seconds": 10.152767181396484,
+    "crps": 0.09112667292356491,
+    "coverage_90": 0.688048243522644,
+    "sample_seconds": 43.81437849998474
+   },
+   {
+    "method": "euler",
+    "steps": 50,
+    "tar_ll": 1.9988229632377625,
+    "ll_seconds": 24.907166481018066,
+    "crps": 0.09031018614768982,
+    "coverage_90": 0.8046875,
+    "sample_seconds": 111.01716494560242
+   },
+   {
+    "method": "euler",
+    "steps": 100,
+    "tar_ll": 1.8900383830070495,
+    "ll_seconds": 49.95979118347168,
+    "crps": 0.09018175303936005,
+    "coverage_90": 0.8381304740905762,
+    "sample_seconds": 211.23868584632874
+   },
+   {
+    "method": "midpoint",
+    "steps": 5,
+    "tar_ll": 1.9039126634597778,
+    "ll_seconds": 3.11789870262146,
+    "crps": 0.09109263122081757,
+    "coverage_90": 0.6868146657943726,
+    "sample_seconds": 19.975759506225586
+   },
+   {
+    "method": "midpoint",
+    "steps": 10,
+    "tar_ll": 1.9768495976924896,
+    "ll_seconds": 6.942056179046631,
+    "crps": 0.09046590328216553,
+    "coverage_90": 0.7842653393745422,
+    "sample_seconds": 44.06657433509827
+   },
+   {
+    "method": "midpoint",
+    "steps": 20,
+    "tar_ll": 1.8451632618904115,
+    "ll_seconds": 13.535040855407715,
+    "crps": 0.09012916684150696,
+    "coverage_90": 0.8606085777282715,
+    "sample_seconds": 88.45857572555542
+   },
+   {
+    "method": "midpoint",
+    "steps": 50,
+    "tar_ll": 1.7779372692108155,
+    "ll_seconds": 31.402969121932983,
+    "crps": 0.09012650698423386,
+    "coverage_90": 0.8656798005104065,
+    "sample_seconds": 207.99347114562988
+   },
+   {
+    "method": "midpoint",
+    "steps": 100,
+    "tar_ll": 1.772480547428131,
+    "ll_seconds": 66.4600579738617,
+    "crps": 0.0901239886879921,
+    "coverage_90": 0.8688322305679321,
+    "sample_seconds": 412.6370356082916
+   },
+   {
+    "method": "rk4",
+    "steps": 5,
+    "tar_ll": 1.8199038326740264,
+    "ll_seconds": 9.33891773223877,
+    "crps": 0.0903007909655571,
+    "coverage_90": 0.90625,
+    "sample_seconds": 43.71726131439209
+   },
+   {
+    "method": "rk4",
+    "steps": 10,
+    "tar_ll": 1.801445597410202,
+    "ll_seconds": 20.101094245910645,
+    "crps": 0.09012037515640259,
+    "coverage_90": 0.8597862124443054,
+    "sample_seconds": 88.38407230377197
+   },
+   {
+    "method": "rk4",
+    "steps": 20,
+    "tar_ll": 1.7703928709030152,
+    "ll_seconds": 40.108824253082275,
+    "crps": 0.09013031423091888,
+    "coverage_90": 0.8548519611358643,
+    "sample_seconds": 174.06246137619019
+   },
+   {
+    "method": "rk4",
+    "steps": 50,
+    "tar_ll": 1.7681090176105498,
+    "ll_seconds": 98.39323258399963,
+    "crps": 0.09012600779533386,
+    "coverage_90": 0.8611568212509155,
+    "sample_seconds": 415.9156901836395
+   },
+   {
+    "method": "rk4",
+    "steps": 100,
+    "tar_ll": 1.7697165668010713,
+    "ll_seconds": 189.92417097091675,
+    "crps": 0.09012391418218613,
+    "coverage_90": 0.8645833134651184,
+    "sample_seconds": 927.1051826477051
+   }
+  ],
+  "_file": "eval_official/rbf/fnp/s1/metrics.json",
+  "_group": "eval_official/rbf/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s1/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.27925702929496765,
+   "coverage_90": 0.5965401530265808,
+   "crps": 0.06796405464410782,
+   "pit_hist": [
+    0.2494419664144516,
+    0.07429847121238708,
+    0.06680484861135483,
+    0.055165816098451614,
+    0.04990433529019356,
+    0.05779655650258064,
+    0.05596300959587097,
+    0.0697544664144516,
+    0.07334183901548386,
+    0.24752870202064514
+   ],
+   "pit_flatness": 0.2969706654548645,
+   "seconds": 1079.7856554985046
+  },
+  "_file": "eval_official/rbf/fnp/s1/metrics_estocastico.json",
+  "_group": "eval_official/rbf/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s2/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4509725868701935,
+   "coverage_90": 0.8296396732330322,
+   "crps": 0.0642264112830162,
+   "pit_hist": [
+    0.12890625,
+    0.09550382941961288,
+    0.10251913219690323,
+    0.09223533421754837,
+    0.08250956982374191,
+    0.09335140138864517,
+    0.08944515138864517,
+    0.0970982164144516,
+    0.08729273080825806,
+    0.1311383992433548
+   ],
+   "pit_flatness": 0.06256377696990967,
+   "seconds": 498.27443838119507
+  },
+  "solvers": [
+   {
+    "method": "euler",
+    "steps": 5,
+    "tar_ll": 3.0692798256874085,
+    "ll_seconds": 2.9693572521209717,
+    "crps": 0.09471742063760757,
+    "coverage_90": 0.484512060880661,
+    "sample_seconds": 12.008687257766724
+   },
+   {
+    "method": "euler",
+    "steps": 10,
+    "tar_ll": 2.4973428606987,
+    "ll_seconds": 5.482440948486328,
+    "crps": 0.09266110509634018,
+    "coverage_90": 0.5592105388641357,
+    "sample_seconds": 23.881847381591797
+   },
+   {
+    "method": "euler",
+    "steps": 20,
+    "tar_ll": 2.2425225973129272,
+    "ll_seconds": 10.686344146728516,
+    "crps": 0.09115377813577652,
+    "coverage_90": 0.6965460777282715,
+    "sample_seconds": 47.6577033996582
+   },
+   {
+    "method": "euler",
+    "steps": 50,
+    "tar_ll": 2.002190202474594,
+    "ll_seconds": 26.253105878829956,
+    "crps": 0.09038159251213074,
+    "coverage_90": 0.8061951994895935,
+    "sample_seconds": 119.30789232254028
+   },
+   {
+    "method": "euler",
+    "steps": 100,
+    "tar_ll": 1.8914657056331634,
+    "ll_seconds": 52.40427780151367,
+    "crps": 0.09025289863348007,
+    "coverage_90": 0.8377193212509155,
+    "sample_seconds": 238.84568428993225
+   },
+   {
+    "method": "midpoint",
+    "steps": 5,
+    "tar_ll": 1.9060836255550384,
+    "ll_seconds": 3.8275253772735596,
+    "crps": 0.09139226377010345,
+    "coverage_90": 0.6733826994895935,
+    "sample_seconds": 24.13072657585144
+   },
+   {
+    "method": "midpoint",
+    "steps": 10,
+    "tar_ll": 1.9685204863548278,
+    "ll_seconds": 7.490648984909058,
+    "crps": 0.09037765115499496,
+    "coverage_90": 0.8026315569877625,
+    "sample_seconds": 36.72195601463318
+   },
+   {
+    "method": "midpoint",
+    "steps": 20,
+    "tar_ll": 1.845846176147461,
+    "ll_seconds": 13.589839220046997,
+    "crps": 0.09019570052623749,
+    "coverage_90": 0.8566337823867798,
+    "sample_seconds": 87.78887343406677
+   },
+   {
+    "method": "midpoint",
+    "steps": 50,
+    "tar_ll": 1.7776309549808502,
+    "ll_seconds": 33.922821044921875,
+    "crps": 0.09019536525011063,
+    "coverage_90": 0.8678728342056274,
+    "sample_seconds": 220.9782030582428
+   },
+   {
+    "method": "midpoint",
+    "steps": 100,
+    "tar_ll": 1.7716215610504151,
+    "ll_seconds": 67.62879943847656,
+    "crps": 0.0902061015367508,
+    "coverage_90": 0.875,
+    "sample_seconds": 439.476122379303
+   },
+   {
+    "method": "rk4",
+    "steps": 5,
+    "tar_ll": 1.82587588429451,
+    "ll_seconds": 10.644625186920166,
+    "crps": 0.09036696702241898,
+    "coverage_90": 0.9076206088066101,
+    "sample_seconds": 47.25870680809021
+   },
+   {
+    "method": "rk4",
+    "steps": 10,
+    "tar_ll": 1.80091153383255,
+    "ll_seconds": 21.040421962738037,
+    "crps": 0.09019327163696289,
+    "coverage_90": 0.8651315569877625,
+    "sample_seconds": 95.01773643493652
+   },
+   {
+    "method": "rk4",
+    "steps": 20,
+    "tar_ll": 1.7669061183929444,
+    "ll_seconds": 41.80976915359497,
+    "crps": 0.09020684659481049,
+    "coverage_90": 0.8549890518188477,
+    "sample_seconds": 190.5680215358734
+   },
+   {
+    "method": "rk4",
+    "steps": 50,
+    "tar_ll": 1.7668065428733826,
+    "ll_seconds": 104.76400327682495,
+    "crps": 0.09020143002271652,
+    "coverage_90": 0.8611568212509155,
+    "sample_seconds": 378.0336103439331
+   },
+   {
+    "method": "rk4",
+    "steps": 100,
+    "tar_ll": 1.769391530752182,
+    "ll_seconds": 199.2371563911438,
+    "crps": 0.0902034342288971,
+    "coverage_90": 0.8695175647735596,
+    "sample_seconds": 894.1080548763275
+   }
+  ],
+  "_file": "eval_official/rbf/fnp/s2/metrics.json",
+  "_group": "eval_official/rbf/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s2/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2785395383834839,
+   "coverage_90": 0.5950255393981934,
+   "crps": 0.06748694181442261,
+   "pit_hist": [
+    0.24848532676696777,
+    0.07629145681858063,
+    0.06983418017625809,
+    0.05452806130051613,
+    0.04886798560619354,
+    0.05779655650258064,
+    0.052933674305677414,
+    0.06967474520206451,
+    0.07270408421754837,
+    0.2488839328289032
+   ],
+   "pit_flatness": 0.2973692715167999,
+   "seconds": 1073.058901309967
+  },
+  "_file": "eval_official/rbf/fnp/s2/metrics_estocastico.json",
+  "_group": "eval_official/rbf/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s3/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.4537627696990967,
+   "coverage_90": 0.8341836929321289,
+   "crps": 0.06359272450208664,
+   "pit_hist": [
+    0.12579719722270966,
+    0.09685905277729034,
+    0.10522959381341934,
+    0.08617665618658066,
+    0.08585777878761292,
+    0.09733737260103226,
+    0.08888711780309677,
+    0.09956951439380646,
+    0.08458226919174194,
+    0.12970344722270966
+   ],
+   "pit_flatness": 0.06073024123907089,
+   "seconds": 459.69813346862793
+  },
+  "_file": "eval_official/rbf/fnp/s3/metrics.json",
+  "_group": "eval_official/rbf/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s3/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.27933672070503235,
+   "coverage_90": 0.5967793464660645,
+   "crps": 0.06725437939167023,
+   "pit_hist": [
+    0.2504783272743225,
+    0.07820472121238708,
+    0.06616709381341934,
+    0.052933674305677414,
+    0.050302933901548386,
+    0.05707908049225807,
+    0.056281886994838715,
+    0.06935586780309677,
+    0.07326211780309677,
+    0.24593430757522583
+   ],
+   "pit_flatness": 0.2964126169681549,
+   "seconds": 1079.4044244289398
+  },
+  "_file": "eval_official/rbf/fnp/s3/metrics_estocastico.json",
+  "_group": "eval_official/rbf/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s4/ckpt.tar",
+  "model": "official-fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.44387754797935486,
+   "coverage_90": 0.8290019035339355,
+   "crps": 0.06369999796152115,
+   "pit_hist": [
+    0.1312181055545807,
+    0.09111925959587097,
+    0.10762117058038712,
+    0.08410395681858063,
+    0.08250956982374191,
+    0.09582270681858063,
+    0.08529974520206451,
+    0.09972895681858063,
+    0.08633609861135483,
+    0.13624043762683868
+   ],
+   "pit_flatness": 0.07507972419261932,
+   "seconds": 449.51878237724304
+  },
+  "_file": "eval_official/rbf/fnp/s4/metrics.json",
+  "_group": "eval_official/rbf/fnp"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s4/ckpt.tar",
+  "model": "official:fnp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.2767059803009033,
+   "coverage_90": 0.5923947691917419,
+   "crps": 0.06714501976966858,
+   "pit_hist": [
+    0.24920280277729034,
+    0.0758928582072258,
+    0.06736288219690323,
+    0.05317283049225807,
+    0.04894770309329033,
+    0.060188136994838715,
+    0.05165816470980644,
+    0.07397959381341934,
+    0.07063137739896774,
+    0.24896365404129028
+   ],
+   "pit_flatness": 0.2981664538383484,
+   "seconds": 944.5847012996674
+  },
+  "_file": "eval_official/rbf/fnp/s4/metrics_estocastico.json",
+  "_group": "eval_official/rbf/fnp/estoc\u00e1stico"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s0/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5040656924247742,
+   "coverage_90": 0.8816167116165161,
+   "crps": 0.06355029344558716,
+   "pit_hist": [
+    0.09941007941961288,
+    0.08793048560619354,
+    0.11344069242477417,
+    0.10028699040412903,
+    0.09606186300516129,
+    0.10913584381341934,
+    0.09574298560619354,
+    0.10570790618658066,
+    0.08888711780309677,
+    0.10339604318141937
+   ],
+   "pit_flatness": 0.03196747228503227,
+   "seconds": 26.930026054382324
+  },
+  "_file": "eval_official/rbf/tnpa/s0/metrics.json",
+  "_group": "eval_official/rbf/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s1/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5096460580825806,
+   "coverage_90": 0.883211076259613,
+   "crps": 0.0636732205748558,
+   "pit_hist": [
+    0.09638074040412903,
+    0.08824936300516129,
+    0.11248405277729034,
+    0.10331632941961288,
+    0.09255421161651611,
+    0.1143973246216774,
+    0.09574298560619354,
+    0.10762117058038712,
+    0.08801020681858063,
+    0.10124362260103226
+   ],
+   "pit_flatness": 0.0390624962747097,
+   "seconds": 60.65437030792236
+  },
+  "_file": "eval_official/rbf/tnpa/s1/metrics.json",
+  "_group": "eval_official/rbf/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s2/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5104432106018066,
+   "coverage_90": 0.8843271732330322,
+   "crps": 0.06356988847255707,
+   "pit_hist": [
+    0.09773597121238708,
+    0.09088010340929031,
+    0.11192601919174194,
+    0.10188137739896774,
+    0.0948660746216774,
+    0.11128826439380646,
+    0.10036671161651611,
+    0.10140305757522583,
+    0.08832908421754837,
+    0.10132334381341934
+   ],
+   "pit_flatness": 0.02818876877427101,
+   "seconds": 60.65193963050842
+  },
+  "_file": "eval_official/rbf/tnpa/s2/metrics.json",
+  "_group": "eval_official/rbf/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s3/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5122767686843872,
+   "coverage_90": 0.8853635191917419,
+   "crps": 0.06329622864723206,
+   "pit_hist": [
+    0.09630101919174194,
+    0.08808992058038712,
+    0.1138392835855484,
+    0.10164222121238708,
+    0.09733737260103226,
+    0.11112882941961288,
+    0.09885203838348389,
+    0.10674425959587097,
+    0.08434311300516129,
+    0.10172194242477417
+   ],
+   "pit_flatness": 0.03507653623819351,
+   "seconds": 61.24347186088562
+  },
+  "_file": "eval_official/rbf/tnpa/s3/metrics.json",
+  "_group": "eval_official/rbf/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/tnpa/s4/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "calibration": {
+   "coverage_50": 0.5074936151504517,
+   "coverage_90": 0.8828125,
+   "crps": 0.0633077397942543,
+   "pit_hist": [
+    0.09462691098451614,
+    0.08984375,
+    0.11447703838348389,
+    0.0993303582072258,
+    0.09948979318141937,
+    0.10985331982374191,
+    0.09630101919174194,
+    0.10738201439380646,
+    0.08824936300516129,
+    0.1004464253783226
+   ],
+   "pit_flatness": 0.032158803194761276,
+   "seconds": 61.19447088241577
+  },
+  "_file": "eval_official/rbf/tnpa/s4/metrics.json",
+  "_group": "eval_official/rbf/tnpa"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s0/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+   "tar_ll": 1.7134353599697352,
+   "num_batches": 100,
+   "seconds": 304.92515325546265
+  },
+  "calibration": {
+   "coverage_50": 0.45687180757522583,
+   "coverage_90": 0.8313934803009033,
+   "crps": 0.06362175196409225,
+   "pit_hist": [
+    0.1266741007566452,
+    0.08848851919174194,
+    0.10052614659070969,
+    0.09127870202064514,
+    0.08434311300516129,
+    0.09646046161651611,
+    0.09072066098451614,
+    0.09972895681858063,
+    0.08681441098451614,
+    0.1349649280309677
+   ],
+   "pit_flatness": 0.06216517835855484,
+   "seconds": 476.717716217041
+  },
+  "_file": "h1/flownp/rbf/s0/metrics.json",
+  "_group": "h1/flownp/rbf"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s1/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+   "tar_ll": 1.7130637085437774,
+   "num_batches": 100,
+   "seconds": 305.4073145389557
+  },
+  "calibration": {
+   "coverage_50": 0.45886480808258057,
+   "coverage_90": 0.8400031924247742,
+   "crps": 0.06381136924028397,
+   "pit_hist": [
+    0.12149234861135483,
+    0.08840879797935486,
+    0.10746173560619354,
+    0.09088010340929031,
+    0.08617665618658066,
+    0.09829400479793549,
+    0.08617665618658066,
+    0.10124362260103226,
+    0.08785076439380646,
+    0.13201530277729034
+   ],
+   "pit_flatness": 0.06221301481127739,
+   "seconds": 478.55772733688354
+  },
+  "_file": "h1/flownp/rbf/s1/metrics.json",
+  "_group": "h1/flownp/rbf"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s2/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+   "tar_ll": 1.7112947218865155,
+   "num_batches": 100,
+   "seconds": 325.46679425239563
+  },
+  "calibration": {
+   "coverage_50": 0.44794324040412903,
+   "coverage_90": 0.8295599222183228,
+   "crps": 0.06419940292835236,
+   "pit_hist": [
+    0.12898597121238708,
+    0.09072066098451614,
+    0.1037946417927742,
+    0.08625637739896774,
+    0.08179209381341934,
+    0.09925063699483871,
+    0.0876116082072258,
+    0.1026785746216774,
+    0.0837053582072258,
+    0.13520407676696777
+   ],
+   "pit_flatness": 0.07066326588392258,
+   "seconds": 403.9508640766144
+  },
+  "_file": "h1/flownp/rbf/s2/metrics.json",
+  "_group": "h1/flownp/rbf"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s3/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+   "tar_ll": 1.7149647869169713,
+   "num_batches": 100,
+   "seconds": 302.5778729915619
+  },
+  "calibration": {
+   "coverage_50": 0.4546396732330322,
+   "coverage_90": 0.8308354616165161,
+   "crps": 0.06355021893978119,
+   "pit_hist": [
+    0.12914541363716125,
+    0.08976402878761292,
+    0.10251913219690323,
+    0.0881696417927742,
+    0.08458226919174194,
+    0.09845344722270966,
+    0.08681441098451614,
+    0.10235969722270966,
+    0.08577805757522583,
+    0.13241390883922577
+   ],
+   "pit_flatness": 0.06643815338611603,
+   "seconds": 459.0286862850189
+  },
+  "_file": "h1/flownp/rbf/s3/metrics.json",
+  "_group": "h1/flownp/rbf"
+ },
+ {
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/h1/flownp/rbf/s4/ckpt.pt",
+  "model": "flownp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/rbf-seed0.tar",
+  "likelihood": {
+   "tar_ll": 1.706876652687788,
+   "num_batches": 100,
+   "seconds": 167.33686590194702
+  },
+  "calibration": {
+   "coverage_50": 0.4580675959587097,
+   "coverage_90": 0.8372927308082581,
+   "crps": 0.06410913914442062,
+   "pit_hist": [
+    0.1255580335855484,
+    0.09375,
+    0.10762117058038712,
+    0.0892857164144516,
+    0.07987882941961288,
+    0.1010044664144516,
+    0.08737245202064514,
+    0.10275828838348389,
+    0.08785076439380646,
+    0.12492027878761292
+   ],
+   "pit_flatness": 0.06186223775148392,
+   "seconds": 217.2798707485199
+  },
+  "_file": "h1/flownp/rbf/s4/metrics.json",
+  "_group": "h1/flownp/rbf"
+ }
+]

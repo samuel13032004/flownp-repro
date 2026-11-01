@@ -1,0 +1,2 @@
+calibration {'coverage_50': 0.5074936151504517, 'coverage_90': 0.8828125, 'crps': 0.0633077397942543, 'pit_flatness': 0.032158803194761276, 'seconds': 61.19447088241577}
+guardado en /content/drive/MyDrive/flownp_runs/ours/eval_official/rbf/tnpa/s4/metrics.json

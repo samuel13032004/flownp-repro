@@ -1,0 +1,4 @@
+kernel,model,seed,tar_ll
+rbf,ndp,0,1.1974
+rbf,ndp,1,1.2001
+rbf,ndp,2,1.2121

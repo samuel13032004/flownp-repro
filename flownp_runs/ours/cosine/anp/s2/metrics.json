@@ -1,0 +1,103 @@
+{
+  "ckpt": "/content/drive/MyDrive/flownp_runs/ours/cosine/anp/s2/ckpt.pt",
+  "model": "official:anp",
+  "evalset": "/content/drive/MyDrive/flownp_runs/ours/evalsets/cosine-seed0.pt",
+  "likelihood": {
+    "tar_ll": 0.39693491950631143,
+    "num_batches": 50,
+    "seconds": 4.760209560394287
+  },
+  "calibration": {
+    "coverage_50": 0.4497884213924408,
+    "coverage_90": 0.8444417119026184,
+    "crps": 0.2015150636434555,
+    "pit_hist": [
+      0.1238606795668602,
+      0.0936686173081398,
+      0.1053873673081398,
+      0.08837890625,
+      0.0852864608168602,
+      0.0982259139418602,
+      0.0821533203125,
+      0.1031901016831398,
+      0.0948893204331398,
+      0.1249593123793602
+    ],
+    "pit_flatness": 0.05739746242761612,
+    "seconds": 0.9123561382293701
+  },
+  "cosine": {
+    "1": {
+      "fidelity_is_cosine": 0.0,
+      "freq_tv_distance": 1.0,
+      "plausible_modes_found": 0.0,
+      "num_plausible_modes": 4.0,
+      "seconds_per_task": 0.0011183395981788635,
+      "precision": 0.331298828125,
+      "recall": 0.677001953125,
+      "density": 0.19428711211367045,
+      "coverage": 0.1669921875,
+      "mmd": 0.06634794361889362
+    },
+    "2": {
+      "fidelity_is_cosine": 0.0,
+      "freq_tv_distance": 1.0,
+      "plausible_modes_found": 0.0,
+      "num_plausible_modes": 3.03125,
+      "seconds_per_task": 0.0009674131870269775,
+      "precision": 0.1552734375,
+      "recall": 0.69677734375,
+      "density": 0.10952148507203674,
+      "coverage": 0.025390625,
+      "mmd": 0.22313288133591413
+    },
+    "3": {
+      "fidelity_is_cosine": 0.000244140625,
+      "freq_tv_distance": 0.999755859375,
+      "plausible_modes_found": 0.0052083334885537624,
+      "num_plausible_modes": 1.46875,
+      "seconds_per_task": 0.0010922327637672424,
+      "precision": 0.075927734375,
+      "recall": 0.838134765625,
+      "density": 0.038818359375,
+      "coverage": 0.00537109375,
+      "mmd": 0.5407037353143096
+    },
+    "5": {
+      "fidelity_is_cosine": 0.01025390625,
+      "freq_tv_distance": 0.98974609375,
+      "plausible_modes_found": 0.0625,
+      "num_plausible_modes": 1.03125,
+      "seconds_per_task": 0.0009307861328125,
+      "precision": 0.008056640625,
+      "recall": 0.747802734375,
+      "density": 0.003173828125,
+      "coverage": 0.00048828125,
+      "mmd": 0.7038826989009976
+    },
+    "10": {
+      "fidelity_is_cosine": 0.123779296875,
+      "freq_tv_distance": 0.876220703125,
+      "plausible_modes_found": 0.359375,
+      "num_plausible_modes": 1.0,
+      "seconds_per_task": 0.0008760392665863037,
+      "precision": 0.0,
+      "recall": 0.94921875,
+      "density": 0.0,
+      "coverage": 0.0,
+      "mmd": 0.4954184293746948
+    },
+    "20": {
+      "fidelity_is_cosine": 0.394775390625,
+      "freq_tv_distance": 0.605224609375,
+      "plausible_modes_found": 0.78125,
+      "num_plausible_modes": 1.0,
+      "seconds_per_task": 0.0008843205869197845,
+      "precision": 0.00048828125,
+      "recall": 0.908447265625,
+      "density": 9.765625145519152e-05,
+      "coverage": 0.00048828125,
+      "mmd": 0.32905129436403513
+    }
+  }
+}

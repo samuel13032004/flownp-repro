@@ -1,0 +1,6 @@
+Experiment: piloto-ndp-p1793374934
+Command line: gp.py --mode=train --kernel=rbf --model=ndp --expname=piloto --expid=p1793374934 --num_steps=600 --print_freq=300 --eval_freq=1000000000 --eval_num_batches=1 --eval_filename=piloto --plot_batch_size=4 --plot_num_samples=4
+Total number of parameters: 224449
+
+piloto:ndp:p1793374934 step 300 lr 2.500e-04 [train_loss] loss 0.3377 (5.597 secs)
+piloto:ndp:p1793374934 step 600 lr 0.000e+00 [train_loss] loss 0.2726 (5.424 secs)

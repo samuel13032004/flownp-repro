@@ -1,0 +1,6 @@
+Experiment: piloto-cnp-p1793271850
+Command line: gp.py --mode=train --kernel=rbf --model=cnp --expname=piloto --expid=p1793271850 --num_steps=600 --print_freq=300 --eval_freq=1000000000 --eval_num_batches=1 --eval_filename=piloto --plot_batch_size=4 --plot_num_samples=4
+Total number of parameters: 215682
+
+piloto:cnp:p1793271850 step 300 lr 2.500e-04 [train_loss] loss 0.6345 (2.804 secs)
+piloto:cnp:p1793271850 step 600 lr 0.000e+00 [train_loss] loss 0.5403 (2.402 secs)

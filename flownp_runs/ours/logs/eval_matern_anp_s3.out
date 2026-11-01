@@ -1,0 +1,2 @@
+calibration {'coverage_50': 0.5738998651504517, 'coverage_90': 0.9112723469734192, 'crps': 0.08992964029312134, 'pit_flatness': 0.08933354914188385, 'seconds': 0.6416110992431641}
+guardado en /content/drive/MyDrive/flownp_runs/ours/eval_official/matern/anp/s3/metrics.json

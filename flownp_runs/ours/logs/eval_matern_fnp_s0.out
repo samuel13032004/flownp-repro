@@ -1,0 +1,17 @@
+calibration {'coverage_50': 0.45735013484954834, 'coverage_90': 0.8390465378761292, 'crps': 0.08325958251953125, 'pit_flatness': 0.06014030799269676, 'seconds': 467.07392597198486}
+{'method': 'euler', 'steps': 5, 'tar_ll': 2.207738298177719, 'll_seconds': 2.818030595779419, 'crps': 0.11611044406890869, 'coverage_90': 0.5037006735801697, 'sample_seconds': 10.977924585342407}
+{'method': 'euler', 'steps': 10, 'tar_ll': 1.9010497391223908, 'll_seconds': 5.100128173828125, 'crps': 0.1131943017244339, 'coverage_90': 0.6248629093170166, 'sample_seconds': 21.836365938186646}
+{'method': 'euler', 'steps': 20, 'tar_ll': 1.7361390322446824, 'll_seconds': 10.012080669403076, 'crps': 0.11176843196153641, 'coverage_90': 0.7331414222717285, 'sample_seconds': 43.656657218933105}
+{'method': 'euler', 'steps': 50, 'tar_ll': 1.555858665704727, 'll_seconds': 24.645551919937134, 'crps': 0.11110011488199234, 'coverage_90': 0.8182565569877625, 'sample_seconds': 108.9899890422821}
+{'method': 'euler', 'steps': 100, 'tar_ll': 1.4746450811624527, 'll_seconds': 49.123154163360596, 'crps': 0.11097626388072968, 'coverage_90': 0.8463541865348816, 'sample_seconds': 217.07363486289978}
+{'method': 'midpoint', 'steps': 5, 'tar_ll': 1.5714259147644043, 'll_seconds': 3.4566874504089355, 'crps': 0.11163241416215897, 'coverage_90': 0.7509594559669495, 'sample_seconds': 21.25814914703369}
+{'method': 'midpoint', 'steps': 10, 'tar_ll': 1.5516829043626785, 'll_seconds': 6.725763320922852, 'crps': 0.11112112551927567, 'coverage_90': 0.813048243522644, 'sample_seconds': 42.43144202232361}
+{'method': 'midpoint', 'steps': 20, 'tar_ll': 1.4432620108127594, 'll_seconds': 13.258033752441406, 'crps': 0.11094129830598831, 'coverage_90': 0.8547149300575256, 'sample_seconds': 82.10327529907227}
+{'method': 'midpoint', 'steps': 50, 'tar_ll': 1.391637420654297, 'll_seconds': 32.973864793777466, 'crps': 0.1109241172671318, 'coverage_90': 0.8686951994895935, 'sample_seconds': 212.28298473358154}
+{'method': 'midpoint', 'steps': 100, 'tar_ll': 1.3890647917985917, 'll_seconds': 70.94120407104492, 'crps': 0.11092401295900345, 'coverage_90': 0.866639256477356, 'sample_seconds': 471.235289812088}
+{'method': 'rk4', 'steps': 5, 'tar_ll': 1.4301435679197312, 'll_seconds': 10.699560403823853, 'crps': 0.11102542281150818, 'coverage_90': 0.8891173005104065, 'sample_seconds': 47.59046530723572}
+{'method': 'rk4', 'steps': 10, 'tar_ll': 1.4088721334934236, 'll_seconds': 21.16548752784729, 'crps': 0.11092569679021835, 'coverage_90': 0.859649121761322, 'sample_seconds': 95.72540378570557}
+{'method': 'rk4', 'steps': 20, 'tar_ll': 1.384844782948494, 'll_seconds': 42.221632957458496, 'crps': 0.11093404144048691, 'coverage_90': 0.8560855388641357, 'sample_seconds': 190.6760060787201}
+{'method': 'rk4', 'steps': 50, 'tar_ll': 1.3858276158571243, 'll_seconds': 86.75228905677795, 'crps': 0.11092548072338104, 'coverage_90': 0.8641721606254578, 'sample_seconds': 383.34355568885803}
+{'method': 'rk4', 'steps': 100, 'tar_ll': 1.3862599790096284, 'll_seconds': 182.84007453918457, 'crps': 0.11092453449964523, 'coverage_90': 0.8651315569877625, 'sample_seconds': 944.8987953662872}
+guardado en /content/drive/MyDrive/flownp_runs/ours/eval_official/matern/fnp/s0/metrics.json

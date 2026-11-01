@@ -1,0 +1,2 @@
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp matern-seed0.tar with obs_noise 0.0
+main:ndp:s2 matern all_ll 0.4853 ctx_ll 0.1644 tar_ll 0.9213 n_ctx 25.7000 n_tar 13.3900 (545.462 secs)

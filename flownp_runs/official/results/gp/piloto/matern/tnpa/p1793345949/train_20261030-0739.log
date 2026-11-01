@@ -1,0 +1,6 @@
+Experiment: piloto-tnpa-p1793345949
+Command line: gp.py --mode=train --kernel=matern --model=tnpa --expname=piloto --expid=p1793345949 --num_steps=600 --print_freq=300 --eval_freq=1000000000 --eval_num_batches=1 --eval_filename=piloto --plot_batch_size=4 --plot_num_samples=4
+Total number of parameters: 222082
+
+piloto:tnpa:p1793345949 step 300 lr 2.500e-04 [train_loss] tar_ll -0.6126 loss 0.6126 (5.702 secs)
+piloto:tnpa:p1793345949 step 600 lr 0.000e+00 [train_loss] tar_ll -0.1871 loss 0.1871 (5.397 secs)

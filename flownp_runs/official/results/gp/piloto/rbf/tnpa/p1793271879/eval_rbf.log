@@ -1,0 +1,2 @@
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp piloto.tar with obs_noise 0.0
+piloto:tnpa:p1793271879 rbf tar_ll -0.0941 loss 0.0941 n_ctx 35.0000 n_tar 6.0000 (0.038 secs)

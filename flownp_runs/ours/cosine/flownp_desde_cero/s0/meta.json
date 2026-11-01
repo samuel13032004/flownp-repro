@@ -1,0 +1,16 @@
+{
+  "model": "flownp",
+  "data": "cosine",
+  "seed": 0,
+  "num_steps": 100000,
+  "batch_size": 16,
+  "lr": 0.0005,
+  "time_per_point": true,
+  "init": null,
+  "git_commit": "4d119a3",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "device": "Tesla T4",
+  "num_params": 224449,
+  "started": "2026-10-31 05:07"
+}

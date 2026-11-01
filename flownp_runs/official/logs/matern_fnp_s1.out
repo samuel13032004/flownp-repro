@@ -1,0 +1,111 @@
+Experiment: main-fnp-s1
+Command line: gp.py --mode=train --kernel=matern --model=fnp --expname=main --expid=s1 --train_seed=1 --num_steps=100000 --print_freq=1000 --save_freq=1000 --eval_freq=1000000000 --plot_batch_size=4 --plot_num_samples=10
+Total number of parameters: 224449
+
+main:fnp:s1 step 1000 lr 4.999e-04 [train_loss] loss 0.9120 (30.900 secs)
+main:fnp:s1 step 2000 lr 4.995e-04 [train_loss] loss 0.8063 (30.061 secs)
+main:fnp:s1 step 3000 lr 4.989e-04 [train_loss] loss 0.8065 (29.880 secs)
+main:fnp:s1 step 4000 lr 4.980e-04 [train_loss] loss 0.6870 (29.973 secs)
+main:fnp:s1 step 5000 lr 4.969e-04 [train_loss] loss 0.4936 (29.963 secs)
+main:fnp:s1 step 6000 lr 4.956e-04 [train_loss] loss 0.4018 (29.752 secs)
+main:fnp:s1 step 7000 lr 4.940e-04 [train_loss] loss 0.3642 (29.734 secs)
+main:fnp:s1 step 8000 lr 4.921e-04 [train_loss] loss 0.3313 (29.803 secs)
+main:fnp:s1 step 9000 lr 4.901e-04 [train_loss] loss 0.3025 (29.835 secs)
+main:fnp:s1 step 10000 lr 4.878e-04 [train_loss] loss 0.2932 (29.787 secs)
+main:fnp:s1 step 11000 lr 4.852e-04 [train_loss] loss 0.2859 (29.971 secs)
+main:fnp:s1 step 12000 lr 4.824e-04 [train_loss] loss 0.2851 (29.653 secs)
+main:fnp:s1 step 13000 lr 4.794e-04 [train_loss] loss 0.2779 (29.745 secs)
+main:fnp:s1 step 14000 lr 4.762e-04 [train_loss] loss 0.2678 (29.860 secs)
+main:fnp:s1 step 15000 lr 4.728e-04 [train_loss] loss 0.2686 (29.775 secs)
+main:fnp:s1 step 16000 lr 4.691e-04 [train_loss] loss 0.2612 (29.702 secs)
+main:fnp:s1 step 17000 lr 4.652e-04 [train_loss] loss 0.2619 (29.660 secs)
+main:fnp:s1 step 18000 lr 4.611e-04 [train_loss] loss 0.2566 (29.867 secs)
+main:fnp:s1 step 19000 lr 4.568e-04 [train_loss] loss 0.2492 (29.486 secs)
+main:fnp:s1 step 20000 lr 4.523e-04 [train_loss] loss 0.2566 (29.827 secs)
+main:fnp:s1 step 21000 lr 4.475e-04 [train_loss] loss 0.2529 (30.508 secs)
+main:fnp:s1 step 22000 lr 4.426e-04 [train_loss] loss 0.2538 (30.596 secs)
+main:fnp:s1 step 23000 lr 4.375e-04 [train_loss] loss 0.2475 (30.032 secs)
+main:fnp:s1 step 24000 lr 4.322e-04 [train_loss] loss 0.2486 (29.619 secs)
+main:fnp:s1 step 25000 lr 4.268e-04 [train_loss] loss 0.2624 (29.630 secs)
+main:fnp:s1 step 26000 lr 4.211e-04 [train_loss] loss 0.2437 (29.853 secs)
+main:fnp:s1 step 27000 lr 4.153e-04 [train_loss] loss 0.2467 (30.113 secs)
+main:fnp:s1 step 28000 lr 4.094e-04 [train_loss] loss 0.2437 (30.660 secs)
+main:fnp:s1 step 29000 lr 4.032e-04 [train_loss] loss 0.2375 (30.454 secs)
+main:fnp:s1 step 30000 lr 3.969e-04 [train_loss] loss 0.2422 (31.668 secs)
+main:fnp:s1 step 31000 lr 3.905e-04 [train_loss] loss 0.2410 (31.992 secs)
+main:fnp:s1 step 32000 lr 3.840e-04 [train_loss] loss 0.2343 (31.240 secs)
+main:fnp:s1 step 33000 lr 3.773e-04 [train_loss] loss 0.2439 (31.024 secs)
+main:fnp:s1 step 34000 lr 3.704e-04 [train_loss] loss 0.2363 (30.670 secs)
+main:fnp:s1 step 35000 lr 3.635e-04 [train_loss] loss 0.2411 (30.435 secs)
+main:fnp:s1 step 36000 lr 3.564e-04 [train_loss] loss 0.2435 (30.003 secs)
+main:fnp:s1 step 37000 lr 3.493e-04 [train_loss] loss 0.2326 (30.257 secs)
+main:fnp:s1 step 38000 lr 3.420e-04 [train_loss] loss 0.2341 (30.111 secs)
+main:fnp:s1 step 39000 lr 3.347e-04 [train_loss] loss 0.2256 (29.892 secs)
+main:fnp:s1 step 40000 lr 3.273e-04 [train_loss] loss 0.2263 (30.816 secs)
+main:fnp:s1 step 41000 lr 3.197e-04 [train_loss] loss 0.2269 (30.453 secs)
+main:fnp:s1 step 42000 lr 3.122e-04 [train_loss] loss 0.2337 (30.822 secs)
+main:fnp:s1 step 43000 lr 3.045e-04 [train_loss] loss 0.2336 (30.184 secs)
+main:fnp:s1 step 44000 lr 2.968e-04 [train_loss] loss 0.2294 (30.018 secs)
+main:fnp:s1 step 45000 lr 2.891e-04 [train_loss] loss 0.2279 (30.400 secs)
+main:fnp:s1 step 46000 lr 2.813e-04 [train_loss] loss 0.2257 (30.471 secs)
+main:fnp:s1 step 47000 lr 2.735e-04 [train_loss] loss 0.2294 (30.470 secs)
+main:fnp:s1 step 48000 lr 2.657e-04 [train_loss] loss 0.2357 (30.416 secs)
+main:fnp:s1 step 49000 lr 2.579e-04 [train_loss] loss 0.2239 (29.720 secs)
+main:fnp:s1 step 50000 lr 2.500e-04 [train_loss] loss 0.2231 (30.315 secs)
+main:fnp:s1 step 51000 lr 2.421e-04 [train_loss] loss 0.2201 (30.006 secs)
+main:fnp:s1 step 52000 lr 2.343e-04 [train_loss] loss 0.2219 (30.064 secs)
+main:fnp:s1 step 53000 lr 2.265e-04 [train_loss] loss 0.2277 (29.871 secs)
+main:fnp:s1 step 54000 lr 2.187e-04 [train_loss] loss 0.2294 (30.319 secs)
+main:fnp:s1 step 55000 lr 2.109e-04 [train_loss] loss 0.2140 (30.470 secs)
+main:fnp:s1 step 56000 lr 2.032e-04 [train_loss] loss 0.2223 (31.884 secs)
+main:fnp:s1 step 57000 lr 1.955e-04 [train_loss] loss 0.2252 (31.115 secs)
+main:fnp:s1 step 58000 lr 1.878e-04 [train_loss] loss 0.2222 (30.726 secs)
+main:fnp:s1 step 59000 lr 1.803e-04 [train_loss] loss 0.2222 (30.401 secs)
+main:fnp:s1 step 60000 lr 1.727e-04 [train_loss] loss 0.2262 (30.855 secs)
+main:fnp:s1 step 61000 lr 1.653e-04 [train_loss] loss 0.2272 (30.585 secs)
+main:fnp:s1 step 62000 lr 1.580e-04 [train_loss] loss 0.2138 (30.412 secs)
+main:fnp:s1 step 63000 lr 1.507e-04 [train_loss] loss 0.2163 (30.063 secs)
+main:fnp:s1 step 64000 lr 1.436e-04 [train_loss] loss 0.2161 (30.902 secs)
+main:fnp:s1 step 65000 lr 1.365e-04 [train_loss] loss 0.2241 (30.197 secs)
+main:fnp:s1 step 66000 lr 1.296e-04 [train_loss] loss 0.2159 (30.376 secs)
+main:fnp:s1 step 67000 lr 1.227e-04 [train_loss] loss 0.2187 (30.516 secs)
+main:fnp:s1 step 68000 lr 1.160e-04 [train_loss] loss 0.2094 (30.723 secs)
+main:fnp:s1 step 69000 lr 1.095e-04 [train_loss] loss 0.2161 (32.286 secs)
+main:fnp:s1 step 70000 lr 1.031e-04 [train_loss] loss 0.2133 (30.973 secs)
+main:fnp:s1 step 71000 lr 9.677e-05 [train_loss] loss 0.2083 (31.415 secs)
+main:fnp:s1 step 72000 lr 9.064e-05 [train_loss] loss 0.2084 (30.892 secs)
+main:fnp:s1 step 73000 lr 8.467e-05 [train_loss] loss 0.2089 (31.347 secs)
+main:fnp:s1 step 74000 lr 7.886e-05 [train_loss] loss 0.2094 (30.257 secs)
+main:fnp:s1 step 75000 lr 7.322e-05 [train_loss] loss 0.2129 (31.163 secs)
+main:fnp:s1 step 76000 lr 6.776e-05 [train_loss] loss 0.2131 (30.309 secs)
+main:fnp:s1 step 77000 lr 6.247e-05 [train_loss] loss 0.2090 (30.774 secs)
+main:fnp:s1 step 78000 lr 5.737e-05 [train_loss] loss 0.2133 (30.309 secs)
+main:fnp:s1 step 79000 lr 5.246e-05 [train_loss] loss 0.2057 (32.187 secs)
+main:fnp:s1 step 80000 lr 4.775e-05 [train_loss] loss 0.2174 (30.230 secs)
+main:fnp:s1 step 81000 lr 4.323e-05 [train_loss] loss 0.2169 (30.680 secs)
+main:fnp:s1 step 82000 lr 3.892e-05 [train_loss] loss 0.2112 (31.055 secs)
+main:fnp:s1 step 83000 lr 3.481e-05 [train_loss] loss 0.2149 (31.394 secs)
+main:fnp:s1 step 84000 lr 3.092e-05 [train_loss] loss 0.2087 (30.090 secs)
+main:fnp:s1 step 85000 lr 2.725e-05 [train_loss] loss 0.2060 (31.028 secs)
+main:fnp:s1 step 86000 lr 2.379e-05 [train_loss] loss 0.2071 (30.457 secs)
+main:fnp:s1 step 87000 lr 2.056e-05 [train_loss] loss 0.2104 (30.784 secs)
+main:fnp:s1 step 88000 lr 1.756e-05 [train_loss] loss 0.2131 (31.489 secs)
+main:fnp:s1 step 89000 lr 1.478e-05 [train_loss] loss 0.2141 (31.114 secs)
+main:fnp:s1 step 90000 lr 1.224e-05 [train_loss] loss 0.2004 (31.157 secs)
+main:fnp:s1 step 91000 lr 9.927e-06 [train_loss] loss 0.2106 (30.655 secs)
+main:fnp:s1 step 92000 lr 7.854e-06 [train_loss] loss 0.2097 (30.443 secs)
+main:fnp:s1 step 93000 lr 6.021e-06 [train_loss] loss 0.2105 (30.806 secs)
+main:fnp:s1 step 94000 lr 4.428e-06 [train_loss] loss 0.2121 (31.342 secs)
+main:fnp:s1 step 95000 lr 3.078e-06 [train_loss] loss 0.2108 (30.597 secs)
+main:fnp:s1 step 96000 lr 1.971e-06 [train_loss] loss 0.2098 (31.139 secs)
+main:fnp:s1 step 97000 lr 1.110e-06 [train_loss] loss 0.2047 (30.523 secs)
+main:fnp:s1 step 98000 lr 4.933e-07 [train_loss] loss 0.2074 (30.761 secs)
+main:fnp:s1 step 99000 lr 1.234e-07 [train_loss] loss 0.2084 (31.118 secs)
+main:fnp:s1 step 100000 lr 0.000e+00 [train_loss] loss 0.2088 (30.579 secs)
+Using device: cuda
+  0%|          | 0/100 [00:00<?, ?it/s]/usr/local/lib/python3.13/dist-packages/torchdiffeq/_impl/misc.py:306: UserWarning: t is not on the same device as y0. Coercing to y0.device.
+  warnings.warn("t is not on the same device as y0. Coercing to y0.device.")
+  1%|1         | 1/100 [00:04<06:46,  4.11s/it]  2%|2         | 2/100 [00:08<06:54,  4.23s/it]  3%|3         | 3/100 [00:12<06:46,  4.19s/it]  4%|4         | 4/100 [00:16<06:34,  4.11s/it]  5%|5         | 5/100 [00:20<06:27,  4.08s/it]  6%|6         | 6/100 [00:23<05:44,  3.67s/it]  7%|7         | 7/100 [00:25<05:06,  3.30s/it]  8%|8         | 8/100 [00:28<04:52,  3.18s/it]  9%|9         | 9/100 [00:31<04:35,  3.03s/it] 10%|#         | 10/100 [00:34<04:26,  2.96s/it] 11%|#1        | 11/100 [00:36<04:10,  2.82s/it] 12%|#2        | 12/100 [00:39<04:01,  2.74s/it] 13%|#3        | 13/100 [00:41<03:51,  2.66s/it] 14%|#4        | 14/100 [00:44<03:49,  2.67s/it] 15%|#5        | 15/100 [00:47<03:47,  2.68s/it] 16%|#6        | 16/100 [00:49<03:41,  2.64s/it] 17%|#7        | 17/100 [00:52<03:37,  2.62s/it] 18%|#8        | 18/100 [00:55<03:36,  2.64s/it] 19%|#9        | 19/100 [00:57<03:34,  2.64s/it] 20%|##        | 20/100 [01:00<03:35,  2.69s/it] 21%|##1       | 21/100 [01:03<03:27,  2.62s/it] 22%|##2       | 22/100 [01:05<03:27,  2.66s/it] 23%|##3       | 23/100 [01:09<03:50,  2.99s/it] 24%|##4       | 24/100 [01:13<04:09,  3.29s/it] 25%|##5       | 25/100 [01:17<04:24,  3.53s/it] 26%|##6       | 26/100 [01:22<04:40,  3.79s/it] 27%|##7       | 27/100 [01:26<04:43,  3.88s/it] 28%|##8       | 28/100 [01:30<04:47,  3.99s/it] 29%|##9       | 29/100 [01:34<04:48,  4.07s/it] 30%|###       | 30/100 [01:38<04:45,  4.08s/it] 31%|###1      | 31/100 [01:43<04:45,  4.14s/it] 32%|###2      | 32/100 [01:47<04:41,  4.14s/it] 33%|###3      | 33/100 [01:51<04:39,  4.18s/it] 34%|###4      | 34/100 [01:55<04:34,  4.15s/it] 35%|###5      | 35/100 [01:59<04:32,  4.20s/it] 36%|###6      | 36/100 [02:04<04:28,  4.20s/it] 37%|###7      | 37/100 [02:08<04:24,  4.20s/it] 38%|###8      | 38/100 [02:12<04:21,  4.21s/it] 39%|###9      | 39/100 [02:16<04:13,  4.15s/it] 40%|####      | 40/100 [02:20<04:09,  4.15s/it] 41%|####1     | 41/100 [02:24<04:03,  4.13s/it] 42%|####2     | 42/100 [02:28<03:59,  4.13s/it] 43%|####3     | 43/100 [02:33<03:59,  4.21s/it] 44%|####4     | 44/100 [02:37<03:54,  4.18s/it] 45%|####5     | 45/100 [02:41<03:50,  4.19s/it] 46%|####6     | 46/100 [02:45<03:45,  4.17s/it] 47%|####6     | 47/100 [02:49<03:41,  4.17s/it] 48%|####8     | 48/100 [02:54<03:37,  4.19s/it] 49%|####9     | 49/100 [02:58<03:33,  4.18s/it] 50%|#####     | 50/100 [03:02<03:30,  4.21s/it] 51%|#####1    | 51/100 [03:06<03:27,  4.24s/it] 52%|#####2    | 52/100 [03:11<03:25,  4.29s/it] 53%|#####3    | 53/100 [03:15<03:18,  4.23s/it] 54%|#####4    | 54/100 [03:19<03:16,  4.27s/it] 55%|#####5    | 55/100 [03:23<03:11,  4.25s/it] 56%|#####6    | 56/100 [03:27<03:04,  4.20s/it] 57%|#####6    | 57/100 [03:32<03:03,  4.27s/it] 58%|#####8    | 58/100 [03:36<02:59,  4.28s/it] 59%|#####8    | 59/100 [03:41<02:55,  4.28s/it] 60%|######    | 60/100 [03:45<02:51,  4.28s/it] 61%|######1   | 61/100 [03:49<02:47,  4.29s/it] 62%|######2   | 62/100 [03:53<02:42,  4.29s/it] 63%|######3   | 63/100 [03:58<02:38,  4.29s/it] 64%|######4   | 64/100 [04:02<02:36,  4.35s/it] 65%|######5   | 65/100 [04:06<02:30,  4.31s/it] 66%|######6   | 66/100 [04:11<02:26,  4.30s/it] 67%|######7   | 67/100 [04:15<02:21,  4.28s/it] 68%|######8   | 68/100 [04:19<02:16,  4.26s/it] 69%|######9   | 69/100 [04:23<02:11,  4.26s/it] 70%|#######   | 70/100 [04:27<02:06,  4.22s/it] 71%|#######1  | 71/100 [04:32<02:04,  4.30s/it] 72%|#######2  | 72/100 [04:36<02:01,  4.35s/it] 73%|#######3  | 73/100 [04:41<01:55,  4.29s/it] 74%|#######4  | 74/100 [04:45<01:50,  4.24s/it] 75%|#######5  | 75/100 [04:49<01:45,  4.20s/it] 76%|#######6  | 76/100 [04:53<01:40,  4.19s/it] 77%|#######7  | 77/100 [04:57<01:36,  4.18s/it] 78%|#######8  | 78/100 [05:01<01:32,  4.23s/it] 79%|#######9  | 79/100 [05:06<01:28,  4.21s/it] 80%|########  | 80/100 [05:10<01:23,  4.20s/it] 81%|########1 | 81/100 [05:14<01:19,  4.21s/it] 82%|########2 | 82/100 [05:18<01:15,  4.20s/it] 83%|########2 | 83/100 [05:22<01:11,  4.19s/it] 84%|########4 | 84/100 [05:27<01:07,  4.23s/it] 85%|########5 | 85/100 [05:31<01:03,  4.22s/it] 86%|########6 | 86/100 [05:35<00:59,  4.27s/it] 87%|########7 | 87/100 [05:39<00:54,  4.20s/it] 88%|########8 | 88/100 [05:44<00:50,  4.24s/it] 89%|########9 | 89/100 [05:48<00:46,  4.22s/it] 90%|######### | 90/100 [05:52<00:42,  4.25s/it] 91%|#########1| 91/100 [05:57<00:39,  4.35s/it] 92%|#########2| 92/100 [06:01<00:34,  4.32s/it] 93%|#########3| 93/100 [06:05<00:30,  4.30s/it] 94%|#########3| 94/100 [06:10<00:26,  4.36s/it] 95%|#########5| 95/100 [06:14<00:21,  4.30s/it] 96%|#########6| 96/100 [06:18<00:17,  4.28s/it] 97%|#########7| 97/100 [06:22<00:12,  4.24s/it] 98%|#########8| 98/100 [06:26<00:08,  4.24s/it] 99%|#########9| 99/100 [06:31<00:04,  4.23s/it]100%|##########| 100/100 [06:35<00:00,  4.27s/it]100%|##########| 100/100 [06:35<00:00,  3.96s/it]
+Evaluating on /content/drive/MyDrive/flownp_runs/official/evalsets/gp matern-seed0.tar with obs_noise 0.0
+main:fnp:s1 matern tar_ll 1.3353 n_ctx 25.7000 n_tar 13.3900 (395.576 secs)
+Figure(2000x500)

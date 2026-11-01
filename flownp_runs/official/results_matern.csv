@@ -1,0 +1,4 @@
+kernel,model,seed,tar_ll
+matern,ndp,0,0.9042
+matern,ndp,1,0.9098
+matern,ndp,2,0.9213

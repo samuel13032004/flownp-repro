@@ -1,0 +1,2 @@
+calibration {'coverage_50': 0.29001912474632263, 'coverage_90': 0.6072225570678711, 'crps': 0.0877014547586441, 'pit_flatness': 0.2870854437351227, 'seconds': 1066.9872105121613}
+guardado en /content/drive/MyDrive/flownp_runs/ours/eval_official/matern/fnp/s1/metrics_estocastico.json

@@ -1,0 +1,34 @@
+pesos iniciales de /content/drive/MyDrive/flownp_runs/official/results/gp/main/rbf/fnp/s2/ckpt.tar
+Traceback (most recent call last):
+  File "/content/flownp-repro/scripts/train.py", line 16, in <module>
+    path = train(a.run, a.model, a.data, a.seed, a.steps, time_per_point=not a.time_per_function,
+                 official_code=a.official_code, device=a.device, init=a.init)
+  File "/content/flownp-repro/src/flownp/training.py", line 130, in train
+    torch.save(dict(model=net.state_dict(), optimizer=opt.state_dict(), scheduler=sched.state_dict(),
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    rng=_rng_state(), step=step, config=cfg), tmp)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 865, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 829, in __init__
+    torch._C.PyTorchFileWriter(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.name, get_crc32_options(), _get_storage_alignment()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: Parent directory /content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s2 does not exist.
+reanudando /content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s2 desde el paso 1000
+terminado: /content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s2/ckpt.pt
+likelihood {'tar_ll': 1.276808921098709, 'num_batches': 50, 'seconds': 163.44695210456848}
+calibration {'coverage_50': 0.4740397036075592, 'coverage_90': 0.8476969599723816, 'crps': 0.11180984973907471, 'pit_flatness': 0.0476888045668602, 'seconds': 368.7240192890167}
+cosine M = 1 {'fidelity_is_cosine': 0.346, 'freq_tv_distance': 0.662, 'plausible_modes_found': 0.773, 'num_plausible_modes': 4.0, 'seconds_per_task': 1.035, 'precision': 0.842, 'recall': 0.562, 'density': 1.135, 'coverage': 0.581, 'mmd': 0.176}
+cosine M = 2 {'fidelity_is_cosine': 0.342, 'freq_tv_distance': 0.684, 'plausible_modes_found': 0.727, 'num_plausible_modes': 3.031, 'seconds_per_task': 1.064, 'precision': 0.382, 'recall': 0.729, 'density': 0.277, 'coverage': 0.204, 'mmd': 0.239}
+cosine M = 3 {'fidelity_is_cosine': 0.417, 'freq_tv_distance': 0.672, 'plausible_modes_found': 0.865, 'num_plausible_modes': 1.469, 'seconds_per_task': 1.072, 'precision': 0.24, 'recall': 0.846, 'density': 0.149, 'coverage': 0.198, 'mmd': 0.506}
+cosine M = 5 {'fidelity_is_cosine': 0.552, 'freq_tv_distance': 0.467, 'plausible_modes_found': 0.93, 'num_plausible_modes': 1.031, 'seconds_per_task': 1.075, 'precision': 0.168, 'recall': 0.85, 'density': 0.13, 'coverage': 0.283, 'mmd': 0.442}
+cosine M = 10 {'fidelity_is_cosine': 0.941, 'freq_tv_distance': 0.06, 'plausible_modes_found': 1.0, 'num_plausible_modes': 1.0, 'seconds_per_task': 1.133, 'precision': 0.397, 'recall': 0.818, 'density': 0.392, 'coverage': 0.601, 'mmd': 0.112}
+cosine M = 20 {'fidelity_is_cosine': 0.98, 'freq_tv_distance': 0.02, 'plausible_modes_found': 0.984, 'num_plausible_modes': 1.0, 'seconds_per_task': 1.219, 'precision': 0.563, 'recall': 0.722, 'density': 0.703, 'coverage': 0.73, 'mmd': 0.058}
+guardado en /content/drive/MyDrive/flownp_runs/ours/cosine/flownp/s2/metrics.json

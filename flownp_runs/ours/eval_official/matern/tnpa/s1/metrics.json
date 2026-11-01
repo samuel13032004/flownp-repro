@@ -1,0 +1,24 @@
+{
+  "ckpt": "/content/drive/MyDrive/flownp_runs/official/results/gp/main/matern/tnpa/s1/ckpt.tar",
+  "model": "official:tnpa",
+  "evalset": "/content/drive/MyDrive/flownp_runs/official/evalsets/gp/matern-seed0.tar",
+  "calibration": {
+    "coverage_50": 0.503507673740387,
+    "coverage_90": 0.8761957883834839,
+    "crps": 0.0837918370962143,
+    "pit_hist": [
+      0.09901148080825806,
+      0.08856824040412903,
+      0.11017219722270966,
+      0.09582270681858063,
+      0.10124362260103226,
+      0.11511479318141937,
+      0.09191645681858063,
+      0.10427296161651611,
+      0.08968430757522583,
+      0.10419324040412903
+    ],
+    "pit_flatness": 0.03499681130051613,
+    "seconds": 60.43643832206726
+  }
+}
