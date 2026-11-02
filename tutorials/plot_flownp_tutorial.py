@@ -134,6 +134,23 @@ plt.title("Pérdida de emparejamiento de flujo")
 plt.tight_layout()
 
 # %%
+# Con tan pocos pasos el modelo puede no haber salido todavía de la meseta.
+# Para el resto del tutorial cargamos el modelo que entrenamos en Colab con la
+# configuración completa (100 000 pasos, semilla 0), cuyos pesos están en
+# ``tutorials/flownp_rbf_100k.pth``. Si el fichero no está, se sigue con el
+# modelo corto.
+
+import os
+
+weights = os.path.join(os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else ".",
+                       "flownp_rbf_100k.pth")
+if os.path.isfile(weights):
+    model.load_state_dict(torch.load(weights, map_location="cpu", weights_only=True))
+    print("Cargado el modelo entrenado 100 000 pasos")
+else:
+    print("No se encontró el modelo entrenado; se usa el de 3000 pasos")
+
+# %%
 # 4. Muestreo condicional
 # -----------------------
 #
