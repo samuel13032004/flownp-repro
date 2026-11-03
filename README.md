@@ -7,6 +7,8 @@ Generativa del Máster Universitario en Inteligencia Artificial (Universidad Aut
 **Tutorial:** https://samuel13032004.github.io/flownp-repro/tutoriales/plot_flownp_tutorial.html
 (también como cuaderno en `notebooks/tutorial_flownp.ipynb`).
 
+Memoria: [paper/flownp_report.pdf](paper/flownp_report.pdf)
+
 Autores: Samuel Déniz, Carlos Enrique Pereda y Yaser Jafar.
 
 ## Qué hay aquí
