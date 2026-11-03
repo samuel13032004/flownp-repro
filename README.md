@@ -1,5 +1,7 @@
 # flownp-repro
 
+Samuel Déniz, Carlos Enrique Pereda y Yaser Jafar
+
 Reimplementación y estudio de **Flow Matching Neural Processes** (FlowNP; Abu Hamad y Rosenbaum, NeurIPS 2025,
 [arXiv:2512.23853](https://arxiv.org/abs/2512.23853)). Proyecto de la asignatura de Inteligencia Artificial
 Generativa del Máster Universitario en Inteligencia Artificial (Universidad Autónoma de Madrid).
